@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-41c39ba48ccc463b8b8bb6ca6e36331f" version="5.0.0">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="TestyAM32L2" id="id-41c39ba48ccc463b8b8bb6ca6e36331f" version="5.0.0">
   <folder name="Strategy" id="id-12b8237131b0421a9767fbba41365017" type="strategy"/>
   <folder name="Business" id="id-c72603f31bcc44d0af989c313c33d281" type="business"/>
   <folder name="Application" id="id-c536a4f18791473ab6e5af061f8634a4" type="application"/>
@@ -10,5 +10,6 @@
   <folder name="Relations" id="id-12e253913f3a440199b993868b2d5fc3" type="relations"/>
   <folder name="Views" id="id-e686077baa6f4fa9bbaa4283212a547b" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-6529ccbd53794e41a094d1b49e2e1c6b"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="New ArchiMate View" id="id-babd33791a144af9b5c0d221e05fee91"/>
   </folder>
 </archimate:model>
