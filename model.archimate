@@ -1,15 +1,768 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="TestyAM32L2" id="id-41c39ba48ccc463b8b8bb6ca6e36331f" version="5.0.0">
-  <folder name="Strategy" id="id-12b8237131b0421a9767fbba41365017" type="strategy"/>
-  <folder name="Business" id="id-c72603f31bcc44d0af989c313c33d281" type="business"/>
-  <folder name="Application" id="id-c536a4f18791473ab6e5af061f8634a4" type="application"/>
-  <folder name="Technology &amp; Physical" id="id-99f7c20e1d1a46e395def547b1bbf116" type="technology"/>
-  <folder name="Motivation" id="id-e8cdae0b140a4c13a793cc26d0f6f736" type="motivation"/>
+  <folder name="Strategy" id="id-12b8237131b0421a9767fbba41365017" type="strategy">
+    <element xsi:type="archimate:Capability" name="Investment performance management" id="id-04ef2073-6d3f-4b37-ab9a-2c849844cf77"/>
+    <element xsi:type="archimate:Capability" name="Investment strategy management" id="id-0b52f11f-1bd1-43dc-930b-aab3ea729d39"/>
+    <element xsi:type="archimate:Capability" name="Money market management" id="id-0fa10057-c90f-4b21-8812-5774e017a631"/>
+    <element xsi:type="archimate:Capability" name="Customer relationship management" id="id-15459c96-01d0-4fd5-8f9d-3e0425672299"/>
+    <element xsi:type="archimate:Capability" name="Claim settlement" id="id-2074d095-9cda-42c3-92bf-be414d1074a5"/>
+    <element xsi:type="archimate:Capability" name="IT management" id="id-25b3bc2a-5a17-4454-be67-e56d61572995"/>
+    <element xsi:type="archimate:Capability" name="Product Management" id="id-291c182f-21d9-4330-adc9-af41617a8d09"/>
+    <element xsi:type="archimate:Capability" name="Cash flow management" id="id-39d84bfe-e546-431d-8c28-ce27e98cd653"/>
+    <element xsi:type="archimate:Capability" name="Contract lifecycle management" id="id-3c6d40c7-279d-487d-8f49-299217061509"/>
+    <element xsi:type="archimate:Capability" name="Asset Management" id="id-42c89121-ea98-4112-8969-d610a475162b"/>
+    <element xsi:type="archimate:Capability" name="Accounts management" id="id-45e63acd-b550-4ee0-bdca-9fd8b497c8da"/>
+    <element xsi:type="archimate:Capability" name="Customer data management" id="id-4bd76e9a-1c07-41fa-846c-8e01f1393093"/>
+    <element xsi:type="archimate:Capability" name="Marketing" id="id-59923c5a-8484-4af9-bb36-2c8657f9a79a"/>
+    <element xsi:type="archimate:Capability" name="Customer service" id="id-5e2af9cb-9ea4-400d-8913-304d846a9ce7"/>
+    <element xsi:type="archimate:Capability" name="Product definition" id="id-61360e3d-a4ef-43a3-9f46-5c39fca7eb95"/>
+    <element xsi:type="archimate:Capability" name="Sales and Distribution" id="id-806a6b4d-f589-416f-8f28-68efe5ac1098"/>
+    <element xsi:type="archimate:Capability" name="Claim Management" id="id-821d51f0-1682-43dc-8262-018bba862bd5"/>
+    <element xsi:type="archimate:Capability" name="Money Management" id="id-82fcb327-d6ca-4f8e-ba55-a7396de71c28"/>
+    <element xsi:type="archimate:Capability" name="Investment portfolio management" id="id-8b6b4372-62dd-48f2-b172-e043cac498d7"/>
+    <element xsi:type="archimate:Capability" name="Sales execution" id="id-8c80a6d1-e93b-4f5c-9ed3-96b52493035f"/>
+    <element xsi:type="archimate:Capability" name="Service channel management" id="id-8e1ba74f-f75b-487c-a2c8-28d73b2da172"/>
+    <element xsi:type="archimate:Capability" name="Banking management" id="id-8f2ae296-839e-4a85-a36d-1c89eede1503"/>
+    <element xsi:type="archimate:Capability" name="Asset inventory management" id="id-90da8ee7-9456-4ebb-bcb7-389040292df4"/>
+    <element xsi:type="archimate:Capability" name="Market development" id="id-b2fa782a-3ea9-4e35-b530-9c8150392320"/>
+    <element xsi:type="archimate:Capability" name="Contract administration" id="id-bcee1647-f307-4302-a3af-dbeaa1542f63"/>
+    <element xsi:type="archimate:Capability" name="Claim administration" id="id-c3697b91-7f2a-4888-a7fa-ae397b84189d"/>
+    <element xsi:type="archimate:Capability" name="Distribution channel management" id="id-cb321505-0caf-4f2d-99e9-3916c0be4969"/>
+    <element xsi:type="archimate:Capability" name="Human resources" id="id-cbd07e16-69e4-4162-b5f5-80d85174cfc3"/>
+    <element xsi:type="archimate:Capability" name="Customer Care" id="id-d00f1304-bec3-454f-9959-464b36533678"/>
+    <element xsi:type="archimate:Capability" name="Product engineering" id="id-d21834fa-0ba8-42ff-a4fb-f12be4939e7c"/>
+    <element xsi:type="archimate:Capability" name="Business support" id="id-d27381b0-31b4-4f95-a0a1-a937fc50e9a0"/>
+    <element xsi:type="archimate:Capability" name="IT Management" id="id-da82b05b-0ab4-416f-aba0-0f39eaf2ea8a"/>
+    <element xsi:type="archimate:CourseOfAction" name="Digital customer intimacy strategy" id="id-e4af15c8-b807-43b9-a26a-5b320f375fa4"/>
+    <element xsi:type="archimate:Capability" name="Campaign management" id="id-f8687234-122d-45a0-95c1-d012e8fb9297"/>
+  </folder>
+  <folder name="Business" id="id-c72603f31bcc44d0af989c313c33d281" type="business">
+    <element xsi:type="archimate:Product" name="Online insurance portfolio and claims management" id="id-0214ccf5-4857-4cd2-addd-0b38a60c1be3"/>
+    <element xsi:type="archimate:BusinessRole" name="Director of Product Management" id="id-08363361-ca55-484f-9565-91251038623d"/>
+    <element xsi:type="archimate:BusinessFunction" name="Investment Management" id="id-1015f4c0-3cde-41f0-b430-d931a9a8b19e"/>
+    <element xsi:type="archimate:Contract" name="Online insurance portfolio and claims management contract" id="id-101c4203-afe3-4fa2-b691-1f717297fef8"/>
+    <element xsi:type="archimate:BusinessEvent" name="Annual Product Review Cycle Begins" id="id-24d326bf-a888-45a6-8687-cccba9d315dc"/>
+    <element xsi:type="archimate:BusinessFunction" name="Marketing" id="id-2a92a26d-9df7-4b86-b5ef-f48a5f6eeb29"/>
+    <element xsi:type="archimate:BusinessRole" name="Chief Operating Officer" id="id-2be570dd-eb74-4137-9aec-570cbf7b5ec8"/>
+    <element xsi:type="archimate:BusinessObject" name="Legal and Regulatory Landscape" id="id-336539b7-47e3-4ca0-bd55-71d887ac02dd"/>
+    <element xsi:type="archimate:BusinessInterface" name="Tele-phone" id="id-35b9c634-6ee9-4e69-9bed-5410718a75b5"/>
+    <element xsi:type="archimate:BusinessActor" name="Back Office" id="id-36401e5e-c6c2-499b-a8ba-3789a81a8ecd"/>
+    <element xsi:type="archimate:BusinessFunction" name="Customer Relations" id="id-3a8a4881-d3b8-4730-984d-53c980b46ff5"/>
+    <element xsi:type="archimate:BusinessObject" name="Initial Recommendation" id="id-3a8e28af-cefc-42c2-ac53-88139c006850"/>
+    <element xsi:type="archimate:BusinessFunction" name="IT service management" id="id-3cb6f48a-21ba-4438-ada0-e5f3358440fb"/>
+    <element xsi:type="archimate:BusinessRole" name="Chief Financial Officer" id="id-3ebcd7c5-c1e0-4adb-b686-ba2c4420b2fb"/>
+    <element xsi:type="archimate:BusinessObject" name="Final Recommendation" id="id-3ef42044-5726-4eeb-9e86-d462aadaf9e5"/>
+    <element xsi:type="archimate:BusinessActor" name="ArchiSurance" id="id-48d5a963-2cba-49a7-b8a3-73e4ff67bb2e"/>
+    <element xsi:type="archimate:BusinessActor" name="Shared Service Center" id="id-4a9fa2fa-8085-4582-a9b0-561302194edc"/>
+    <element xsi:type="archimate:BusinessCollaboration" name="R&amp;D Task Force" id="id-4e36eaa2-5cb6-4b76-a927-f2cdee44c92c"/>
+    <element xsi:type="archimate:BusinessRole" name="Director of Underwriting" id="id-50b925d8-1fd8-4f9f-bd86-dccc3a15eca4"/>
+    <element xsi:type="archimate:BusinessFunction" name="Document Processing" id="id-585703a8-63a0-410a-b10b-c06500021294"/>
+    <element xsi:type="archimate:BusinessRole" name="Chief Executive Officer" id="id-5d363381-9e96-4c92-88e2-46e43eeca937"/>
+    <element xsi:type="archimate:BusinessProcess" name="Operational Analysis and Planning" id="id-6297b536-8762-4cd1-894b-5414869df4d8"/>
+    <element xsi:type="archimate:BusinessRole" name="Chief Actuary" id="id-6412740f-5b50-49a4-8f08-e612b2c2c058"/>
+    <element xsi:type="archimate:BusinessObject" name="Corporate Strategy" id="id-64a3f1ec-c482-4ea2-9a6b-92023a8be355"/>
+    <element xsi:type="archimate:BusinessActor" name="Customer" id="id-6b497932-822f-4df1-b1e5-234a44054c22"/>
+    <element xsi:type="archimate:BusinessRole" name="Product Planner" id="id-6eda051e-9d4f-4be1-badc-afb623761e04"/>
+    <element xsi:type="archimate:BusinessRole" name="Director of Customer Service" id="id-71edaafe-e908-4463-86f1-99089bb56d0a"/>
+    <element xsi:type="archimate:BusinessEvent" name="Unanticipated Business Condition" id="id-7661c677-8d51-4263-bcfa-e356dab0cb75"/>
+    <element xsi:type="archimate:BusinessRole" name="Market Researcher" id="id-7adc1198-b923-4212-b5ad-8782b30adee1"/>
+    <element xsi:type="archimate:BusinessProcess" name="Review Analysis and Recommendation" id="id-7d45cc94-f4c1-4d1e-9ff4-f82aa4f0abf3"/>
+    <element xsi:type="archimate:BusinessFunction" name="Sales" id="id-7e27074c-97ec-4852-b47a-9d570b1ef330"/>
+    <element xsi:type="archimate:BusinessInterface" name="Web Portal" id="id-7f3e1882-1672-4fd1-887b-e972ef24bfbf"/>
+    <element xsi:type="archimate:BusinessCollaboration" name="R&amp;D Review Board" id="id-8c838f01-0bd0-4279-be6f-e76226d9b928"/>
+    <element xsi:type="archimate:BusinessRole" name="Bank" id="id-93840933-8eff-4de3-b367-88f84ae52cc5"/>
+    <element xsi:type="archimate:BusinessCollaboration" name="Executive Committee" id="id-99340345-d0fb-4e34-9d9d-c74ad3026780"/>
+    <element xsi:type="archimate:BusinessEvent" name="Strategic Product Development Effort Begins" id="id-9b4660af-c862-47e5-aa1b-5eeb9dba0b32"/>
+    <element xsi:type="archimate:BusinessProcess" name="Recommend Changes to Product Portfolio" id="id-9f405bf9-3f06-40f4-8824-1965aa20b91c"/>
+    <element xsi:type="archimate:BusinessFunction" name="Claims" id="id-a03bec70-8f81-4e56-ae34-4bcaad339afb"/>
+    <element xsi:type="archimate:BusinessInterface" name="E-Mail" id="id-a2e1cf0b-c2a9-4e86-b6cc-770860899929"/>
+    <element xsi:type="archimate:BusinessRole" name="Chief Marketing Officer" id="id-a3b737bb-1f4c-4038-b0b7-24a617bc386a"/>
+    <element xsi:type="archimate:BusinessProcess" name="Request Off-Cycle Product Review" id="id-a6588d35-fcd2-4ba6-ae29-81fa5b4c8b1e"/>
+    <element xsi:type="archimate:BusinessFunction" name="Finance" id="id-af23ac94-3c72-4868-b1c7-5fea432b643c"/>
+    <element xsi:type="archimate:BusinessProcess" name="Go-No Go Decision" id="id-b8660e7f-5b8d-4b4b-9623-6c3295122651"/>
+    <element xsi:type="archimate:BusinessFunction" name="Underwriting" id="id-bacf3906-8000-49b6-ae16-043215915f4d"/>
+    <element xsi:type="archimate:BusinessObject" name="Product Performance" id="id-c483c0a1-ff04-42af-9fa0-d739501bf45d"/>
+    <element xsi:type="archimate:BusinessRole" name="Actuary" id="id-c8fc9bd0-e00c-4238-be92-948928e84e80"/>
+    <element xsi:type="archimate:BusinessActor" name="Front Office" id="id-c94afe58-c6d9-41bc-82a5-3e6c7d1d6503"/>
+    <element xsi:type="archimate:BusinessFunction" name="Actuarial" id="id-cd9d2f97-4788-49b8-a966-fdc8a44a4204"/>
+    <element xsi:type="archimate:BusinessObject" name="Market Conditions" id="id-d89bb42f-d9e8-4337-a9ea-82cb62ba346f"/>
+    <element xsi:type="archimate:BusinessProcess" name="Stimulate and Refine Recommendation" id="id-d94bac48-62ff-40a0-9bb4-7b7bf197b67d"/>
+    <element xsi:type="archimate:BusinessProcess" name="Plan Product Introduction" id="id-f454568c-e2d3-4273-9945-f6a516c8bd2c"/>
+    <element xsi:type="archimate:BusinessRole" name="Director of Claims Processing" id="id-f9593758-51c0-4a48-bec3-5308a63ea2c8"/>
+  </folder>
+  <folder name="Application" id="id-c536a4f18791473ab6e5af061f8634a4" type="application">
+    <element xsi:type="archimate:ApplicationCollaboration" name="Administration" id="id-0119b4e7-6558-4d10-a482-88cffbb02871"/>
+    <element xsi:type="archimate:ApplicationService" name="Access Invoice information" id="id-01669d64-d5d6-452c-ab1d-129a80941c39"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Business Rule Management" id="id-08f055e0-d7aa-4d7e-9b52-9bc46ce76079"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Business Rule Definition" id="id-096a6b6c-dc76-40af-ae39-6e33d5709675"/>
+    <element xsi:type="archimate:ApplicationComponent" name="BRIMS" id="id-0c040681-8832-4e24-8755-4a562c2ad04e"/>
+    <element xsi:type="archimate:ApplicationService" name="Business Rule Management" id="id-0c6d835f-dc02-4bcf-a6dc-2f7b4f019778"/>
+    <element xsi:type="archimate:ApplicationComponent" name="ArchiSurance Back Office Suite" id="id-0c74d9d9-28dd-4207-b4e0-85317fbaf77c"/>
+    <element xsi:type="archimate:DataObject" name="RMA Definition" id="id-0f450443-a86e-4cb7-a9e9-8dbaf53c6230"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Business Rule Lifecycle Management" id="id-0f69cbfd-c927-498e-a97d-3d8c2a9314c3"/>
+    <element xsi:type="archimate:DataObject" name="Market Analysis" id="id-0f73a564-b577-4ac3-b830-54742159079a"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Business Rule Execution" id="id-122aac48-4ff9-4659-a33c-7ae5bb7fc373"/>
+    <element xsi:type="archimate:ApplicationService" name="Claim status" id="id-13efa621-e079-41a1-aebf-1e1d4104e501"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="Claims" id="id-15b448b0-0cb0-46f2-9397-ca2933391611"/>
+    <element xsi:type="archimate:ApplicationComponent" name="P-CONFIG" id="id-18901040-3d56-4563-a91c-cdf4c6acfe63"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Product Configuration Definition" id="id-1e4c031b-4779-457b-84dc-951711fc3f24"/>
+    <element xsi:type="archimate:ApplicationService" name="Access Portfolio information" id="id-2126caae-d676-47a4-814f-2d3c3e7851bb"/>
+    <element xsi:type="archimate:ApplicationComponent" name="VERSA-CLAIM" id="id-25c519d2-c47e-478f-a1d4-2261fffd8448"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Product Configuration Retrieval &amp; Execution" id="id-2e2d29a3-65a8-42e6-8c6e-77967486cdc7"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Product Configuration Management" id="id-35205611-b7e8-4523-906a-2e867cda27ad"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Business Analytics Suite" id="id-36addc41-29b9-4ede-866a-92d5c0b6b57e"/>
+    <element xsi:type="archimate:ApplicationFunction" name="RMA Definition" id="id-3807ce9d-6c68-47a3-8138-120f1c032e96"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Product Configuration Reporting &amp; Analysis" id="id-3a49b354-c85c-4c8c-b496-6e4226b5894b"/>
+    <element xsi:type="archimate:ApplicationService" name="Product Simulation" id="id-3c991d19-fdc5-4508-954f-7ccd87bd2dd2"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Q-CLAIM" id="id-3ec69248-576e-41d5-8ef5-6839132a6e3f"/>
+    <element xsi:type="archimate:ApplicationComponent" name="AUTO-U" id="id-3f584962-d586-4500-b0e8-9f4a722e79f5"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Call Center Application" id="id-4604dceb-f54a-4af8-b317-4e28f178f06c"/>
+    <element xsi:type="archimate:ApplicationInteraction" name="Define Products" id="id-48567ccd-acef-473d-97b8-942f02f7fa20"/>
+    <element xsi:type="archimate:DataObject" name="Candidate Business Rule Set" id="id-4cbc3122-7559-42fc-9974-ce71568d4ad0"/>
+    <element xsi:type="archimate:ApplicationComponent" name="DOC-SHARE" id="id-51382a10-d7f1-4787-bcc4-b76ecba35382"/>
+    <element xsi:type="archimate:ApplicationInterface" name="Business Rule Management API" id="id-5865a74f-db9e-48df-b753-efeed4501e86"/>
+    <element xsi:type="archimate:DataObject" name="Business Rule Set" id="id-5c6a8338-7a90-4158-abb2-85c7a616a864"/>
+    <element xsi:type="archimate:DataObject" name="Policy" id="id-628270d2-05ea-4069-adac-6e94b644d3fd"/>
+    <element xsi:type="archimate:ApplicationComponent" name="P-ADMIN" id="id-68e1220f-de0f-4d96-8657-e431ab72048b"/>
+    <element xsi:type="archimate:DataObject" name="Enterprise Data Warehouse" id="id-68eb66f0-03a6-45ca-a3fa-38da052970c4"/>
+    <element xsi:type="archimate:ApplicationService" name="Business Rule Development" id="id-69859f45-f1be-4916-a868-203149dc3701"/>
+    <element xsi:type="archimate:ApplicationInterface" name="Product Configuration Retrieval &amp; Execution API" id="id-6a42b275-2e35-4cd1-9b13-33f833bd3137"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="Simulation Environment" id="id-6d6ee823-4b3c-45cb-bbc1-f4c8176b58cf"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Product Configuration Lifecycle Management" id="id-70d3ffa3-de21-4d47-81e2-86d94a7b1688"/>
+    <element xsi:type="archimate:ApplicationInterface" name="Web front-end" id="id-78090d26-9a4d-480b-9ad1-ff8f7c67e021"/>
+    <element xsi:type="archimate:DataObject" name="Market Statistics" id="id-79158283-5258-4adb-a71c-a921e7ade0a8"/>
+    <element xsi:type="archimate:ApplicationService" name="Automated Underwriting" id="id-7da4b002-7035-4dc5-b6b4-1118f54f29db"/>
+    <element xsi:type="archimate:DataObject" name="Claim" id="id-88486a0a-c953-4192-8f98-ed16c1e8f947"/>
+    <element xsi:type="archimate:DataObject" name="Product Analysis" id="id-8bb3ba8c-6fc4-472d-80f1-546e2524cacb"/>
+    <element xsi:type="archimate:ApplicationFunction" name="RMA Execution" id="id-918e2534-705a-48d5-9f30-2e4e3cc84587"/>
+    <element xsi:type="archimate:ApplicationService" name="Claims Processing" id="id-a080db85-112e-433d-aa74-c1fb7391714b"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Document Management System" id="id-a3030be7-e5c5-495e-b9d3-5393b01319ad"/>
+    <element xsi:type="archimate:ApplicationService" name="Product Lifecycle Management" id="id-ab103ae4-0e9b-4d11-99dd-2a7e8be98679"/>
+    <element xsi:type="archimate:ApplicationFunction" name="Business Rule Reporting &amp; Analysis" id="id-ae8f3479-f0c3-447b-9e65-02d1fdfdc977"/>
+    <element xsi:type="archimate:ApplicationComponent" name="SIM-INSURE" id="id-b4eb4411-aa05-422f-970b-cecb0b9582b4"/>
+    <element xsi:type="archimate:ApplicationComponent" name="V-MAN" id="id-b59e89de-9b3b-45d9-982a-26f981b58a6b"/>
+    <element xsi:type="archimate:DataObject" name="Candidate Product Configuration" id="id-c323e988-7984-414a-a6f0-fa9b8a0012b6"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Online insurance portfolio and claims management" id="id-c3581f92-aa8c-410b-8f42-6e921539d297"/>
+    <element xsi:type="archimate:ApplicationService" name="RMA Development" id="id-c422bacb-d9a6-40ab-9d47-d437bf9c4bd3"/>
+    <element xsi:type="archimate:ApplicationCollaboration" name="Product Definition" id="id-cb293141-3621-4884-8bd6-a32e9d755165"/>
+    <element xsi:type="archimate:ApplicationService" name="Claim submission" id="id-cede659a-0742-41a2-87e7-b92d12271ac5"/>
+    <element xsi:type="archimate:ApplicationService" name="Policy Administration" id="id-d14e6f30-9224-440a-af19-66764a2c3fc9"/>
+    <element xsi:type="archimate:DataObject" name="Product Configuration" id="id-d379a64f-0e99-4c8a-b0df-d09fcb224020"/>
+    <element xsi:type="archimate:ApplicationService" name="Business Intelligence" id="id-e658ea3f-f00f-4adb-81ee-9782c3c2d00e"/>
+    <element xsi:type="archimate:ApplicationService" name="Enter Portfolio updates" id="id-e7f69c26-1ed5-4dab-9836-1c0147a382dc"/>
+    <element xsi:type="archimate:ApplicationInterface" name="Business Rule Execution API" id="id-ee1e5323-e611-43d2-94b7-dcb122e9dcc0"/>
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-99f7c20e1d1a46e395def547b1bbf116" type="technology">
+    <element xsi:type="archimate:TechnologyService" name="Application Access" id="id-0de277d1-59f8-48dc-aa4b-ae5da9daa8d6"/>
+    <element xsi:type="archimate:TechnologyInterface" name="SOAP/XML Client" id="id-106471bf-2d9c-4c5f-afe3-ae0bd0b5a33b"/>
+    <element xsi:type="archimate:SystemSoftware" name="Integration Server" id="id-17bba569-1e4b-4e47-bd26-5123ef64db8d"/>
+    <element xsi:type="archimate:SystemSoftware" name="Internet Web Server B" id="id-1ab16915-3179-41d6-887c-4d5a4e855369"/>
+    <element xsi:type="archimate:TechnologyService" name="Hosting Management" id="id-217b4e9b-ccbb-4071-9a5a-82ab1038e910"/>
+    <element xsi:type="archimate:Device" name="ArchiSurance back-up server cluster" id="id-28f49dbe-4f9a-436d-b680-530df0e5eab9"/>
+    <element xsi:type="archimate:Device" name="VM-06XX" id="id-2c09c596-4f13-4ce4-9438-1390cbfa0fa6"/>
+    <element xsi:type="archimate:TechnologyInterface" name="Virtual Machine" id="id-2db525a4-889b-4918-99ae-8885be156d04"/>
+    <element xsi:type="archimate:Device" name="VM-05XX" id="id-37608ed3-0f36-4c55-8abf-2a19d27188e2"/>
+    <element xsi:type="archimate:Device" name="VM-02XX" id="id-43a2a55f-0477-4282-a4ed-46bed9b603c5"/>
+    <element xsi:type="archimate:SystemSoftware" name="Intranet Web Server" id="id-46333553-6b4a-4c87-a8ad-be7e31bf8dac"/>
+    <element xsi:type="archimate:Device" name="Firewall Cluster C" id="id-483ffb59-ab81-45a1-8a1d-4c4e70ca57fc"/>
+    <element xsi:type="archimate:Node" name="Internal Virtual Infrastructure B" id="id-4f91ac57-fbcc-401e-bcff-ed1a8464b86e"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="DMZ LAN A" id="id-530ad57a-5a47-451a-b465-c060863f1a9c"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="Internal LAN A" id="id-55b5049b-aa1c-4448-8b43-01eb2f966370"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="Internet" id="id-58d017b9-781c-491e-814d-11cbfe522927"/>
+    <element xsi:type="archimate:SystemSoftware" name="Application Server" id="id-6437f49f-beb9-4529-92d4-e24300c1885a"/>
+    <element xsi:type="archimate:Device" name="Media Server C" id="id-68e80245-85ee-4b66-8764-d6b6d26d72c2"/>
+    <element xsi:type="archimate:TechnologyInterface" name="Domain Server Directory Structure" id="id-6af4332a-be46-4ee1-bfa3-f09d36bab921"/>
+    <element xsi:type="archimate:Node" name="Web Virtual Infrastructure A" id="id-6c1cc5a9-76df-4d8c-97f3-56fb203ba412"/>
+    <element xsi:type="archimate:Device" name="VM-03XX" id="id-7064cc9a-2fbe-481c-a722-fd2cc164276d"/>
+    <element xsi:type="archimate:Device" name="Media Server B" id="id-76083618-b597-45ea-aa49-2b8299df8ed9"/>
+    <element xsi:type="archimate:Path" name="Message Queuing" id="id-7be4b069-8056-421c-a639-80eca070b382"/>
+    <element xsi:type="archimate:SystemSoftware" name="Internet Web Server" id="id-7e25692c-4830-4c75-b431-a67fe389af89"/>
+    <element xsi:type="archimate:TechnologyService" name="Application Hosting" id="id-828f67c8-c752-40af-a49a-e8304f311e1e"/>
+    <element xsi:type="archimate:Device" name="Media Server A" id="id-82c62450-cf49-4490-b421-9807e68aef2b"/>
+    <element xsi:type="archimate:Device" name="Firewall Cluster A" id="id-84677514-7124-4c65-bd35-982b0d326764"/>
+    <element xsi:type="archimate:TechnologyInterface" name="Web Server Directory Structure" id="id-970924da-7b43-4445-892d-a8d3a424a131"/>
+    <element xsi:type="archimate:SystemSoftware" name="Distributed Operating System" id="id-98581b65-d43a-42cf-8cc4-c3dc60ee5a58"/>
+    <element xsi:type="archimate:Device" name="VM-04XX" id="id-9dce85db-6ecd-4566-b2cd-e646bdc4b322"/>
+    <element xsi:type="archimate:SystemSoftware" name="Hypervisor B" id="id-9dfc59d0-f708-422f-9bbc-e132979b70f4"/>
+    <element xsi:type="archimate:Device" name="VM-07XX B" id="id-a269cb29-b7a0-4329-8523-002a77fc0293"/>
+    <element xsi:type="archimate:Device" name="Document management back-up server" id="id-a8532748-3c4f-4c8c-86be-dd4c30e2baa1"/>
+    <element xsi:type="archimate:Node" name="Internal Virtual Infrastructure A" id="id-aa947346-a13b-4882-8098-5cdf445b568f"/>
+    <element xsi:type="archimate:Path" name="Load Balancing" id="id-b9164d3a-7c92-406b-8235-63b26406aedd"/>
+    <element xsi:type="archimate:TechnologyInterface" name="Content Repository" id="id-ba40c8c1-de51-479c-a39c-54b5c9429d8e"/>
+    <element xsi:type="archimate:TechnologyService" name="Data Access" id="id-bb3b1b9c-1022-4623-bc05-f2300487902b"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="GlobeNet VPN" id="id-bc7d8426-fc9a-44cd-9d82-01c27da54671"/>
+    <element xsi:type="archimate:TechnologyInterface" name="Application Container" id="id-bdeafa94-f7cf-4f21-9b15-2c4af46e140b"/>
+    <element xsi:type="archimate:TechnologyService" name="Virtual Hosting" id="id-bef3b201-edbf-453d-af79-cbf978a3b847"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="WideNet VPN" id="id-c07928b7-1f01-4d11-ab14-7c9aa2a6d5da"/>
+    <element xsi:type="archimate:TechnologyService" name="File Sharing" id="id-c9eeae2c-d469-4c02-a0b2-de4c7a73a62a"/>
+    <element xsi:type="archimate:TechnologyService" name="Internet Web Hosting" id="id-cc1e6402-04df-4181-9285-570882bf3755"/>
+    <element xsi:type="archimate:Device" name="VM-01XX" id="id-cc2890d1-73e6-4722-a03b-8f3a1a792795"/>
+    <element xsi:type="archimate:Device" name="ArchiSurance general-purpose server cluster" id="id-ccfed834-caf5-47c2-acac-240a4c2d8ac4"/>
+    <element xsi:type="archimate:SystemSoftware" name="Database Management System" id="id-d74d7866-f8e6-4fb2-80aa-e54af62d4450"/>
+    <element xsi:type="archimate:TechnologyInterface" name="ODBC Client" id="id-d87bb532-ad78-4d87-9f3a-408882aca294"/>
+    <element xsi:type="archimate:TechnologyInterface" name="File Server Directory Structure" id="id-d894fb13-a9b1-43dd-add3-6eadc7f83f00"/>
+    <element xsi:type="archimate:Path" name="Automated Failover" id="id-de747550-0c7f-4807-b39c-ec54f5e5f3d7"/>
+    <element xsi:type="archimate:TechnologyService" name="Collaborative Application Hosting" id="id-df5e1e2a-c54f-48a9-9649-2b952a36e8d0"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="Internal LAN C" id="id-e17a1f67-765a-4c0f-ab2d-cf24c69dd241"/>
+    <element xsi:type="archimate:Device" name="Document management server" id="id-e52a3f2d-cf11-44b5-9039-45a2a8589f7e"/>
+    <element xsi:type="archimate:Node" name="Web Virtual Infrastructure B" id="id-e5c72548-2835-47ba-9aee-62dcce044847"/>
+    <element xsi:type="archimate:Device" name="Front Office general-purpose server" id="id-e6426b43-dc01-4e7b-bc66-87cfe45a2322"/>
+    <element xsi:type="archimate:Device" name="VM-07XX" id="id-e66b6376-47b5-4d9f-81ba-79232b7dfe5b"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="PSTN" id="id-e6f92225-83fd-4e76-b99f-8dc87402c39a"/>
+    <element xsi:type="archimate:TechnologyService" name="Intranet Web Hosting" id="id-e79120ac-c396-4a03-84b2-fde4df31b372"/>
+    <element xsi:type="archimate:Device" name="Firewall Cluster B" id="id-e822f90c-586b-4056-8a90-27a3fd2a86f8"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="Internal LAN B" id="id-ed8bc56e-2c4a-46f8-86e2-fc3721f2646a"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="DMZ LAN B" id="id-ee84ebdf-b6c4-4715-b549-9c4454bc58cd"/>
+    <element xsi:type="archimate:TechnologyInterface" name="Management API" id="id-f3653a4b-2e59-4388-b97c-51c6fe4d3971"/>
+    <element xsi:type="archimate:SystemSoftware" name="Distributed File System" id="id-f6d493ab-8957-4aa3-b179-7b4d52ddb1f2"/>
+    <element xsi:type="archimate:SystemSoftware" name="Hypervisor A" id="id-fbac697c-9c54-4d3f-88b9-bb8818a34e21"/>
+  </folder>
+  <folder name="Motivation" id="id-e8cdae0b140a4c13a793cc26d0f6f736" type="motivation">
+    <element xsi:type="archimate:Requirement" name="Provide online portfolio and claims management" id="id-0b489f41-faeb-4ade-840e-52318fd8776f"/>
+    <element xsi:type="archimate:Assessment" name="Single point of access for all insurance products" id="id-2eb44953-009f-491f-a01c-615d0388d672"/>
+    <element xsi:type="archimate:Requirement" name="Provide online portfolio information" id="id-3b02f02d-0af3-4ca9-9947-09dc7073b0df"/>
+    <element xsi:type="archimate:Assessment" name="Loss of customers" id="id-59be27db-9ce2-47ab-a42a-de19130ae2e5"/>
+    <element xsi:type="archimate:Assessment" name="Integrated portfolio and claims management" id="id-5e2931e2-91e4-4cde-88fa-52be38dc87b2"/>
+    <element xsi:type="archimate:Assessment" name="Frequent customer complaints" id="id-7bb196ea-0ef4-46ec-9ddb-419a8bae3887"/>
+    <element xsi:type="archimate:Requirement" name="Provide online claim submission" id="id-8f2f08f6-bb08-498e-bfb7-42e994c69667"/>
+    <element xsi:type="archimate:Assessment" name="Lack of information about portfoliio" id="id-91d8edf1-cd14-4b77-a9cf-bc22210ad747"/>
+    <element xsi:type="archimate:Requirement" name="Provide personal assistance to customer" id="id-a154ca8a-4d6d-473c-ab69-ad8968134773"/>
+    <element xsi:type="archimate:Assessment" name="Lack of information about claim status" id="id-ab2420ee-172c-4892-971f-fd06f873c2a4"/>
+    <element xsi:type="archimate:Constraint" name="Additional personnel cost should be limited" id="id-bb117d32-f975-4e27-937d-d953d2d38b45"/>
+    <element xsi:type="archimate:Assessment" name="Inconvenient claim submission" id="id-ced1e63a-5ea5-46e7-af7a-4a023f56d5fe"/>
+    <element xsi:type="archimate:Requirement" name="Provide online claim information" id="id-d42086e5-de5f-4c35-8cd9-96dedbffb367"/>
+    <element xsi:type="archimate:Goal" name="Improve insurance portfolio and claims management" id="id-e2489273-294b-4dc4-864f-62ac39ded4e5"/>
+    <element xsi:type="archimate:Principle" name="Systems should be customer facing" id="id-ee7d17ec-cd29-4739-a190-3ec47e5c20b2"/>
+    <element xsi:type="archimate:Driver" name="Customer satisfaction" id="id-f14ae894-47ae-406c-817d-ec4c2ad9f070"/>
+  </folder>
   <folder name="Implementation &amp; Migration" id="id-d21d77b67642427ca0688fafa0dfa274" type="implementation_migration"/>
-  <folder name="Other" id="id-3508a71f30ac40ebab515cde92d2ef45" type="other"/>
+  <folder name="Other" id="id-3508a71f30ac40ebab515cde92d2ef45" type="other">
+    <element xsi:type="archimate:Junction" name="Or Junction (document management servers)" id="id-09345482-15c3-4f54-aa8d-b3035e480673" type="or"/>
+    <element xsi:type="archimate:Junction" name="And junction for realizing digital intimacy strategy" id="id-21d239b2-6b9e-4f54-82e7-f904f525cb02"/>
+    <element xsi:type="archimate:Location" name="Home &amp; Away headquarters" id="id-2dad7714-f0df-4e57-b8e8-a84401a62cd8"/>
+    <element xsi:type="archimate:Junction" name="OR Junction" id="id-3b91c56c-3ade-4b81-9c77-5bfdd83ce0e2" type="or"/>
+    <element xsi:type="archimate:Junction" name="Or Junction for alternative requirements" id="id-45feb04a-aef1-4506-9ad0-5bbd3a9c4168" type="or"/>
+    <element xsi:type="archimate:Junction" name="Or Junction (back office suite servers)" id="id-4dc1bbf7-f724-432c-a7a1-9501e7b759ca" type="or"/>
+    <element xsi:type="archimate:Location" name="Home &amp; Away data center" id="id-8ea73951-a949-4db7-a590-4e2d02556e8d"/>
+    <element xsi:type="archimate:Junction" name="And Junction Asset Management Realization" id="id-9719d792-6ffe-4df8-b6fa-ed65c30d56eb"/>
+    <element xsi:type="archimate:Junction" name="Or Junction (decision 3)" id="id-9789e885-e7a9-48ec-87f4-633e8ca51c7b" type="or"/>
+    <element xsi:type="archimate:Junction" name="And Junction (web front end to multiple services)" id="id-b4f67573-462f-4c42-994a-81495bb6d517"/>
+    <element xsi:type="archimate:Junction" name="And Junction Claim Management realization" id="id-b5632616-2a3b-4a73-a270-c36a20fe26c5"/>
+    <element xsi:type="archimate:Location" name="PRO-FIT headquarters" id="id-c7db9213-07c9-401a-b6ff-78a0b0bae148"/>
+    <element xsi:type="archimate:Junction" name="OR Junction (decision 2)" id="id-d645af5b-8dfc-482c-b45f-94a8f3f6555c" type="or"/>
+    <element xsi:type="archimate:Location" name="Legally Yours headquarters" id="id-e24efa4a-5359-4047-a5b2-cef48f05d07a"/>
+    <element xsi:type="archimate:Location" name="PRO-FIT data center" id="id-ec7928ba-5ba6-4d25-9ff6-99527413a154"/>
+  </folder>
   <folder name="Relations" id="id-12e253913f3a440199b993868b2d5fc3" type="relations"/>
   <folder name="Views" id="id-e686077baa6f4fa9bbaa4283212a547b" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-6529ccbd53794e41a094d1b49e2e1c6b"/>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="New ArchiMate View" id="id-babd33791a144af9b5c0d221e05fee91"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="2a-Business-function" id="id-0dbb13f3-4ab7-4f11-8a7f-6ed3c298faca">
+      <documentation>Exercise 2: Business Reorganization
+&#xD;
+Overview
+After completion of the rationalization of their application portfolio, ArchiSurance decides to reorganize the structure of their business, in order to further improve efficiency:
+1.	The three back offices will be integrated to form a single back office, located at the Home &amp; Away headquarters.
+2.	The front office will be relocated to the Legally Yours headquarters.
+3.	The shared service center for document processing will remain at the PRO-FIT headquarters. 
+4.	At the Home &amp; Away and PRO-FIT headquarters, separate data centers will be established to house the IT infrastructure:
+a.	The ArchiSurance general-purpose server cluster, the Document Management back-up server and the Front Office general-purpose server will be located at the Home &amp; Away data center.
+b.	The Document Management Server and the ArchiSurance back-up server cluster, will be located at the PRO-FIT data center.
+
+Exercise 2a: Business Functions
+Create a view that shows the main business functions of the three departments and the information that flows between them.
+1.	The Back Office performs the business functions Underwriting, Actuarial, Claims and Finance
+2.	The Front Office performs the business functions Customer Relations and Marketing
+3.	The Shared Service Center performs the business function Document Processing.
+Also show the main information flows, and label them with the type of information that is transmitted or with the corresponding number:
+1.	The Actuarial function provides 
+a.	Pricing information (how much to charge for premium) to the Underwriting function and 
+b.	Reserving information (how much premium to retain to pay for future claims) to the Finance function.
+2.	The Claims function provides claims experience information to Actuarial for use in pricing and reserving determinations.
+3.	Actuarial provides analysis of product performance, recommendations on product design and projections of future product performance to the Marketing function.
+4.	The Claims function provides a report of claim expenses to the Finance function.
+5.	The Document Processing function exchanges documents with the Back Office department as a whole.
+6.	The Finance Department exchanges payment details with an external role Bank.</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="5b-Capability-Realization" id="id-180952e6-94d5-4e23-8ce8-0a710fca785e">
+      <documentation>Exercise 5b: Capability Realization
+&#xD;
+Create a view that shows the relationships between the main capabilities of ArchiSurance (as developed in part 5a) and the main business functions of the three departments. In addition the view should show where the new “Digital customer intimacy strategy” will fit with the capabilities and functions.
+The view should contain:
+1.	The business functions shown as realizing the high level capabilities identified in part 5a of this exercise: 
+•	Marketing, which studies, plans, promotes, and manages products and market segments, and works with Actuarial to design products
+•	Actuarial, which determines product prices and reserve levels, works with marketing to design new products, and analyzes enterprise risk
+•	Customer Relations, which includes the interactions between ArchiSurance and its customers; it handles customer questions, captures incoming claims, and conducts direct marketing campaigns
+•	Underwriting, which sets prices for individual policies and generates insurance proposals and policies
+•	Claims, which formulates and executes a response to each claim against an ArchiSurance policy
+•	Sales, which manages a pipeline of opportunities, and closes contracts with customers
+•	Finance, which handles regular premium collection and the payment of insurance claims
+•	Investment Management, which manages financial and real estate assets for maximum returns within corporate and regulatory liquidity and risk constraints
+•	IT service management, a supporting function for the business
+2.	The Claims Management capability is realized by the Claims, Underwriting and Actuarial business functions.
+3.	The Finance business function realizes both the Money Management capability and the Asset Management capability
+4.	A course of action “Digital customer intimacy strategy” realized by the Customer care and the IT management capabilities.
+When more than one function realizes a capability, use an And junction (solid ball) to indicate clearly that both functions are required.</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="5a-Capability-Map" id="id-214c4c86-c406-4a8c-9fbf-e991dcaba4f2">
+      <documentation>Exercise 5: Strategic Direction
+&#xD;
+Overview
+ArchiSurance needs to improve or change several of its capabilities to implement the strategic and operational changes it envisages. The Baseline Business Architecture is being developed, which includes a map of the current capabilities of the organization, together with an analysis of the current business functions.
+
+Exercise 5a: Capability Map
+This exercise requires an ArchiMate Capability Map view (see the ArchiMate 3.0 Specification, Section C.3.2) that depicts a structured overview of the capabilities of an enterprise.  
+Develop a Capability Map view for ArchiSurance, which structures its business capabilities in a two-level hierarchy, with each Level 1 capability consisting of multiple Level 2 capabilities. This view should contain:
+1.	A Level 1 Product management capability consisting of Level 2 Product Definition and Product engineering capabilities.
+2.	A Level 1 Marketing capability consisting of Level 2 Market development and Campaign management capabilities
+3.	A Level 1 Sales and Distribution capability consisting of  Level 2 Distribution channel management and sales execution capabilities
+4.	A Level 1 Customer Care capability consisting of four Level 2 capabilities:
+a.	Customer service
+b.	Customer relationship management
+c.	Service channel management
+d.	Customer data management
+5.	A Level 1 Claim Management capability consisting of four Level 2 capabilities:
+a.	Contract lifecycle management
+b.	Claim settlement
+c.	Contract administration
+d.	Claim administration
+6.	A Level 1 Asset Management capability consisting of four Level 2 capabilities
+a.	Investment strategy management
+b.	Investment performance management
+c.	Investment portfolio management
+d.	Asset inventory management
+7.	A Level 1 Money Management capability consisting of four Level 2 capabilities
+a.	Banking management
+b.	Cash flow management
+c.	Accounts management
+d.	Money market management
+8.	A Level 1 Business support capability consisting of two Level 2 capabilities
+a.	Human resources
+b.	IT management</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="3a-Back-Office Application Cooperation" id="id-296253f7-730b-48a3-a032-13ed40c735e1">
+      <documentation>Exercise 3: Back-Office Application Cooperation and Usage   
+&#xD;
+Overview
+ArchiSurance is migrating its core business functions to an integrated suite consisting of the following applications:  
+•	AUTO-U, an automated underwriting system that generates proposals and policies.
+•	P-ADMIN, a packaged policy administration system that integrates with the automated underwriting system to issues, modifies and renews policies. This system also handles customer accounting and billing.
+•	VERSA-CLAIM, a packaged claims system with screens and workflow that can be configured to support ArchiSurance’ s diverse lines of business.
+•	P-CONFIG, a product configurator management used to define all insurance products, and expose these definitions to other applications through web services.
+•	BRIMS, a business rule management system (BRMS) consisting of a rules repository, a processing engine, a rule development environment, and an authoring tool for rule management applications (RMAs). The business rule engine exposes rule execution capabilities to other applications through web services. 
+•	SIM-INSURE, an insurance business simulation package that works with other applications to enable ArchiSurance experts to simulate the business performance of new and changed products under development. 
+As ArchiSurance unifies its back-offices, its product development processes are changing significantly.  The new processes use sophisticated Business Intelligence and Product Simulation application services to analyze the ArchiSurance product portfolio, to identify necessary changes and to iteratively model and validate those changes.  The new processes also involve careful review at progressively higher levels of the organization.  
+
+Exercise 3a: Back-Office Application Cooperation
+This exercise requires the creation of an ArchiMate Application Cooperation view (see the ArchiMate 3.0 Specification, section C.1.4).   This view depicts application components that perform functions, access data objects, transfer data, expose interfaces, participate in collaborations, and realize services.  
+1.  The BRIMS application component is assigned to the following application functions:
+a. Business Rule Management, which 
+i.  Is composed of two functions:
+	 	1. Business Rule Lifecycle Management
+	 	2. Business Rule Reporting &amp; Analysis
+	ii. Sends (model as flow) Business Rule sets to the RMA Definition function
+	iii. Sends Business Rule Sets to the Business Rule Execution function
+	iv. Receives (model as flow) Business Rules from the Business Rule Definition function
+	v. Realizes the Business Rule Management application service
+b.  Business Rule Definition, which 
+i. Sends Business Rules to the Business Rule Management function
+ii. Realizes the Business Rule Development application service
+c.  Rule Management Application (RMA) Definition, which 
+i.  Receives Business Rule Sets from the Business Rule Management function
+ii. Sends RMAs to the RMA Execution function
+iii. Realizes the RMA Development application service
+	d.   RMA Execution, which 
+i.  Sends Business Rule Sets to the Business Rule Execution function
+ii.  Receives RMAs from the RMA definition function
+e. Business Rule Execution, which
+i. Receives Business Rule Sets from the Business Rule Management function
+ii. Receives Business Rule Sets from the RMA Execution function
+2.  The BRIMS application component also
+	a. Accesses (writes to) the following data objects:  
+i. RMA Definition
+ii Business Rule Sets
+	b.  Provides two application interfaces
+i.  Business Rule Execution API
+ii. Business Rule Management API 
+3.  The P-CONFIG application component is assigned to the following application functions
+	a.  Product Configuration Management, which 
+i.  Is composed of two functions:
+			a. Product Configuration Lifecycle Management
+			b. Product Configuration Reporting &amp; Analysis
+		ii.  Receives Product Configurations from the Product Configuration Definition function
+	iii. Sends Product Configurations to the Product Configuration Retrieval &amp; Execution function
+b.  Product Configuration Definition, which sends Product Configurations to the Product Configuration Management function.
+c.  Product Configuration Retrieval &amp; Execution, which receives Product Configurations from the Product Configuration Management function.
+4. The P-CONFIG application component also
+	a.  Accesses (writes to) the Production Configuration data object.
+	b.  Accesses (reads) the Business Rule Set data object.
+	c.  Uses the Business Rule Execution API.
+	d.  Uses the Business Rule Management API.
+5. BRIMS and P-CONFIG are aggregated by the Product Definition application collaboration, which is assigned to the Define Products application interaction, which in turn realizes the Product Lifecycle Management Application service.  
+6. The P-CONFIG component exposes a Product Configuration Retrieval &amp; Execution API application interface.
+7. The following application components all use the Product Configuration Retrieval &amp; Execution API:
+	a.  AUTO-U, which also
+		i. Accesses (writes to) the Policy data object.
+		ii. Realizes the Automated Underwriting application service.
+	b.  P-ADMIN, which also
+		i. Accesses (reads) the Policy data object.
+		ii. Realizes the Policy Administration application service.
+	c. VERSA-CLAIM, which also 
+i. Accesses (writes to) the Claim data object.
+ii. Accesses (reads) the Policy data object.
+		ii. Realizes the Claim Processing application service.</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="1b-Application-Cooperation" id="id-34a95191-daf1-4ea0-a18c-acb9ad9227e9">
+      <child xsi:type="archimate:Note" id="id-19e14dcb-0e91-4756-b4b2-bca5542d762d" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
+        <bounds x="56" y="564" width="185" height="80"/>
+        <content>Copyright © The Open Group, All Rights Reserved.</content>
+      </child>
+      <documentation>Exercise 1b: Application Co-operation
+&#xD;
+Based on the analysis of the alternative solutions, ArchiSurance decides to develop a solution for online insurance portfolio and claims management. A new application (“Online Insurance Portfolio and Claims Management”) collaborates with existing components from ArchiSurance’s back-office application suite to realize web-based services for the customers:
+1.	Services for entering portfolio updates, accessing portfolio information, and accessing invoice information. These services are realized by a collaboration (“Administration”) with the P-ADMIN component. 
+2.	Services for submitting claims and accessing the status of current claims. These services are realized by a collaboration (“Claims”) with the VERSA-CLAIM component.
+These services can be accessed through a web front-end, which can be considered an application interface that is part of the Online Portfolio and Claims Management application.
+Show the information described above in an ArchiMate Application Cooperation view (see the ArchiMate 3.0.1 Specification, section C.1.4).</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="4b-Technology-Usage" id="id-456e3a98-0e83-4730-9c5d-04a0d3330819">
+      <documentation>Exercise 4b: Technology Usage
+&#xD;
+This exercise requires an ArchiMate Technology Usage view (see the ArchiMate 3.0.1 Specification, Section C.1.8) that depicts system software environments and application components using technology services via assigned technology interfaces.  System software realizes these services.  Service realization and usage occurs on two levels: the hypervisor realizes virtual hosting services serving system software environments, which in turn realize services serving applications. For simplicity, this exercise assumes that Hypervisor A at PRO-FIT headquarters is hosting all back-office applications.
+1.	Hypervisor A realizes the following infrastructure services:
+a.	Virtual Hosting, which is assigned to the Virtual Machine infrastructure interface.
+b.	Hosting Management, which is assigned to the Management Application Programming Interface (API).
+2.	The following system software environments use the Virtual Machine infrastructure interface and realize technology services assigned to additional technology interfaces:
+a.	Internet Web Server realizes the Internet Web Hosting service assigned to the Content Repository technology interface.
+b.	Application Server realizes the Application Hosting service assigned to the Application Container technology interface
+c.	Integration Server realizes the Application Access service  assigned to the SOAP/XML Client technology interface
+d.	Database Management System (DBMS) realizes the Data Access service assigned to the Open Database Connectivity (ODBC) Client technology interface
+e.	Intranet Web Server realizes the Intranet Web Hosting service assigned to the Web Server Directory Structure technology interface
+f.	Distributed Operating System (DOS) realizes the Collaborative Application Hosting service assigned to the Domain Server Directory Structure technology interface
+g.	Distributed File System (DFS) realizes the File Sharing service assigned to the File Server Directory Structure technology interface
+3.	The following application components use the technology interfaces:
+a.	Q-CLAIM, an online self-service claim entry application uses 
+i.	Content Repository
+ii.	Application Container
+b.	VERSA-CLAIM, a claims processing application uses 
+i.	Application Container
+ii.	SOAP/XML Client
+iii.	ODBC Client
+iv.	Web Server Directory Structure
+c.	DOC-SHARE, a document collaboration application uses
+i.	Web Server Directory Structure
+ii.	Domain Server Directory Structure
+iii.	File Server Directory Structure
+d.	V-MAN, a  virtualized hosting management tool  uses
+i.	Web Server Directory Structure
+ii.	Management API</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-488a70ba-6652-42fd-b752-e515473f5a8e">
+      <documentation>ArchiMate® Certification for People: Practical Exercises
+
+April 2020, Version 3.07
+
+© Copyright 2012-2023, The Open Group
+All rights reserved.
+
+
+Note: Modifications to the Practical Exercises are only permitted with prior approval and copies must be provided to The Open Group, including assignment of copyright to the modifications to The Open Group.
+
+
+Introduction
+This document contains five modeling exercises tailored to students who have had a thorough introduction to the ArchiMate modeling language as part of an ArchiMate Training Course.  These are a resource for use with ArchiMate 3.0 Training Courses. They have no bearing on certification, as students are solely assessed by examination. Each exercise is based on the ArchiMate 3.0 Specification and the ArchiSurance Case Study.  Each exercise consists of an overview followed by explicit instructions for creating one or more views.  
+
+We recommend that students complete at least two exercises during a Training Course. After completion of the exercise the trainer should explain a solution for the exercises as part of the course. We also recommend that a course include a complete walkthrough of at least one other of the practical exercises. 
+Each exercise stresses a different set of ArchiMate language layers and aspects.  Trainers should use their judgment in selecting the most appropriate exercises for their students.
+
+Disclaimer: The purpose of these exercises is to introduce students to ArchiMate modeling. As such, these cannot cover the complete language or all possibilities. A set of model solutions are provided, however there may also be additional ways to answer the problem. Some suggestions for how to further extend the exercises are included at the end of this document.
+
+Extension Exercises
+
+The following are some suggestions for how to extend the exercises further.
+In 2b: Layered view, model the two data centers as facilities using the physical elements.
+In 4a: Technology Landscape, model a pair of load balancing clusters in different places that each use multiple DNS services. 
+
+Strategy Layer Extension Exercise
+
+To cover more of the strategy layer, decompose the Customer Care capability in part 5b into three assigned resources:  People, Processes, and Technology.  People could include the Customer Service and QA teams as business actors.  Processes could include Call Handling and Workforce Optimization, and Technology could include a new Customer Portal.   
+
+Implementation &amp; Migration Extension Exercise
+
+To add an Implementation and Migration Diagram, model a simple &quot;waterfall&quot; design process consisting of work packages and realized plateaus.  Begin with a Project Start Event that triggers a series of work packages, each of which realizes a plateau:
+1. Planning realizes Project Plan in Place, which could aggregate a Project Plan business object.
+2.  Requirements realizes Requirements Documented, which could aggregate a Requirements Specification business object.
+3.  Design realizes solution Designed, which could aggregate a System Design business object.
+4.  Follow a similar pattern for Development, QA and Release.  The plateaus in these stages could optionally aggregate application services and/or components.</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="1c-Requirements-Realization" id="id-5439ce5b-298d-4c35-8e1a-1a5a8ccd97b8">
+      <documentation>Exercise 1c: Requirements Realization
+&#xD;
+The application services described in part 1b of this exercise are part of a product called “Online Insurance Portfolio and Claims management”. This product also incorporates a contract that states its conditions of use.
+This product and its services realize the requirements identified in part 1a of this exercise:
+1.	The product as a whole realizes the high-level requirement “Provide support for online portfolio and claims management”.
+2.	The services for portfolio updates, portfolio information and invoice information realize the requirement “Provide online portfolio information”.
+3.	The service for submitting claims realizes the requirement “Provide online claim submission”.
+4.	The service for accessing the status of current claims realizes the requirement “Provide online claim information”.
+Show the information described above in a Requirements Realization view, as described in the ArchiMate Motivation viewpoints.  Use nesting for showing the relationship between the product and its services.</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="1-Swot-Analysis" id="id-8abd3455-1cfc-4880-a77b-0e778c826ee7">
+      <documentation>Exercise 1: Online Insurance Portfolio and Claims Management
+&#xD;
+Overview
+ArchiSurance has performed a customer satisfaction SWOT (Strengths, Weaknesses, Opportunities and Threats) analysis and documented the results using the ArchiMate Motivation elements
+ArchiSurance has decomposed the assessment  “Frequent customer complaints” into more specific weaknesses. To address these weaknesses, a business goal “improve insurance portfolio and claims management” is formulated.</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="1a-Goal-Contribution" id="id-aefe007c-18d8-450e-ae62-60a779d47669">
+      <documentation>Exercise 1a: Goal Realization
+&#xD;
+ArchiSurance is exploring two different options for improving customer satisfaction.  While both options realize the goal “Improve Insurance Portfolio and Claims management”, they have very different requirements.  Develop a Goal Realization View (see the ArchiMate 3.0 Specification, section C.2.2) that explores these alternatives. This view should contain:
+1.	The business goal “Improve insurance portfolio and claims management”
+2.	Two possible solutions, modeled as requirements:
+a.	Provide personal assistance to each customer via phone, e-mail and web chat.
+b.	Provide support for online portfolio and claims management. This requirement is refined into a number of more detailed requirements:
+i.	Provide online portfolio information.
+ii.	Provide online claim information.
+iii.	Provide online claim submission.
+3.	A principle “Systems should be customer-facing”. Requirement 2a has a (strong) negative influence on this principle, requirement 2b  has a (strong) positive influence on this principle.
+4.	A constraint that the additional personnel costs should be kept limited. The former requirement has a strong negative influence on this constraint, the latter requirement has a positive influence on this constraint.</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="3b-Application-Usage" id="id-b1962f2f-abc9-49e4-bae2-02ffaf2a56ea">
+      <documentation>Exercise 3b:  Application Usage for Product Development
+&#xD;
+This exercise requires the creation of an ArchiMate Application Usage viewpoint (see the ArchiMate 3.0.1 Specification, section C.1.5) that depicts a series of business processes performed by business collaborations.  These processes access business objects and use application services.  The application services are realized by application components that access data objects.  Some of these data objects in turn realize business objects that are accessed by the business processes.  All of the data objects are aggregated by an Enterprise Data Warehouse data object.
+1.	The Enterprise Data Warehouse (EDW) aggregates the following data objects:
+a.	Market Statistics
+b.	Market Analysis, which realizes the Market Conditions business object.
+c.	Product Analysis, which realizes the Product Performance business object.
+d.	Candidate Business Rule Set
+e.	Candidate Product Configuration
+2.	The following application components access the EDW:
+a.	Business Analytics Suite, which 
+i.	Accesses (reads) the entire EDW
+ii.	Accesses (writes to) the Market Analysis data object
+iii.	Accesses (writes to) the Product Analysis data object
+iv.	Realizes the Business Intelligence application service
+b.	BRIMS, which accesses (writes to) the Candidate Business Rule Set data object
+c.	P-CONFIG, which accesses (writes to) the Candidate Product Configuration data object
+d.	SIM-INSURE, which accesses (reads) the entire EDW
+3.	BRIMS, P-CONFIG and SIM-INSURE are aggregated by the Simulation Environment application collaboration, which in turn realizes the Product Simulation application service.
+4.	The Recommend Changes to Product Portfolio process
+a.	 Is triggered by any one of four situations:
+i.	An Unanticipated Business Condition event that first triggers a Request Off-Cycle Product Review business process, to which the Director of Product Management role is assigned; this business process, in turn, triggers the above-mentioned process
+ii.	An Annual Product Review Cycle Begins business event
+iii.	A Strategic Product Development Effort Begins business event
+iv.	A Review Analysis and Recommendation business process, in case this yields an unfavorable assessment of an Initial Recommendation (this results in a loop back to the above-mentioned process)
+b.	Has the R&amp;D Task Force business collaboration assigned.  This collaboration aggregates the following roles:
+i.	Actuary
+ii.	Market Researcher
+iii.	Product Planner
+c.	Uses the Business Intelligence application service
+d.	Accesses (reads) the following business objects:
+i.	Corporate Strategy
+ii.	Legal and Regulatory Landscape
+iii.	Market Conditions
+iv.	Product Performance
+e.	Accesses (writes) the Initial Recommendation business object.
+5.	The Review Analysis and Recommendation process
+a.	Is triggered by the Recommend Changes to Product Portfolio process
+b.	 Has the R&amp;D Review Board business collaboration assigned.  This collaboration aggregates the following roles:
+i.	Chief Actuary
+ii.	Director of Underwriting
+iii.	Director of Customer Service
+iv.	Director of Claims Processing
+c.	Accesses (reads) the Initial Recommendation business object
+d.	If the review is favorable, triggers the Simulate and Refine Recommendation process
+e.	If the review is unfavorable, triggers a repeat of the Recommend Changes to Product Portfolio Process
+6.	The Simulate and Refine Recommendation Process
+a.	Is triggered by a favorable assessment of the Initial Recommendation by the Review Analysis and Recommendation business process
+b.	Aggregates the Operational Analysis and Planning business function
+c.	Has the R&amp;D Task Force business collaboration assigned
+d.	Uses the Product Simulation application service
+e.	Accesses (reads) the Initial Recommendation business object
+f.	Accesses (writes) the Final Recommendation business object
+g.	Triggers the Go-No-Go Decision process
+7.	The Go-No-Go Decision process
+a.	Is triggered by the Simulate and Refine Recommendation Process
+b.	Has the Executive Committee business collaboration assigned.  This collaboration aggregates the following roles:
+i.	Chief Executive Officer
+ii.	Chief Financial Officer
+iii.	Chief Operating Officer
+iv.	Chief Marketing Officer
+c.	Accesses (reads) the Final Recommendation business object
+d.	If a Go decision occurs, triggers the Plan Product Introduction process
+e.	If a No-Go decision occurs, triggers a repeat of the Recommend Changes to Product Portfolio Process</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="4a-Technology-Landscape" id="id-c5d4420c-b562-41ba-9051-516c7b06992f">
+      <documentation>Exercise 4: Infrastructure Structure, Behavior and Usage
+&#xD;
+Overview
+ArchiSurance is modernizing its infrastructure to host its new integrated back-office application suite.  It is building a fully redundant virtualized hosting and storage infrastructure within the primary data centers at the headquarters of its PRO-FIT and Home &amp; Away divisions, which are located in different metropolitan areas.  ArchiSurance is also upgrading the locally-focused infrastructure at Legally Yours headquarters so that the site receives all the benefits of the new enterprise infrastructure.  The new enterprise infrastructure provides message queuing and automated failover from one data center to another, and uses two telecommunications providers to provide redundant wide-area networks and Internet access.  This redundancy is especially important since ArchiSurance is also migrating to full IP telephony; all of its voice, rich media and data traffic will share the same physical networks.   
+Exercise 4a: Technology Landscape
+This exercise requires the creation of an ArchiMate Technology view (see the ArchiMate 3.0 Specification, section C.1.7) that depicts the most important hosts, networks and systems software at all three ArchiSurance divisional headquarters.  The view also includes key communication paths between the two primary data centers, as well as aspects of the external networks upon which ArchiSurance relies.  Since most technology components are replicated at two or three sites, this exercise uses the following conventions for unique naming:
+1.	Components at PRO-FIT headquarters have a suffix of “A”, e.g. “Firewall Cluster A”.
+2.	Components at Home &amp; Away headquarters have a suffix of “B”, e.g. “Firewall Cluster B”.
+3.	Components at Legally Yours headquarters have a suffix of “C”, e.g. “Firewall Cluster C”.
+Also, since virtualized environments typically have many virtual machines devoted to similar purposes, each virtual machine device name represents a series of numbered devices, e.g. VM-01XX for application server hosts, or VM-02XX for integration server hosts.
+1.	ArchiSurance relies on the following external networks and relationships between networks:
+a.	The GlobalNet virtual private network (VPN)
+b.	The WideNet VPN
+c.	The GlobalNet VPN and the WideNet VPN are connected to each other  
+d.	Both the GlobalNet VPN  and the WideNet VPN have separate connections to the Public Switched Telephone Network (PSTN)
+e.	Both the GlobalNet VPN  and the WideNet VPN have separate connections to the Internet
+2.	The PRO-FIT, Home &amp; Away and Legally Yours headquarters sites each have the following common infrastructure:
+a.	A Firewall Cluster with connections to both the GlobalNet VPN and the WideNet VPN.
+b.	An internal local area network (LAN) connected to the Firewall Cluster.
+c.	A Media Server connected to the Internal LAN. 
+3.	Both the PRO-FIT and Home &amp; Away primary data center sites each have the following  infrastructure:
+a.	An externally-facing (DMZ for Demilitarized Zone) LAN connected to the Firewall Cluster
+b.	A Web Virtual Infrastructure node 
+i.	Connected to the DMZ LAN
+ii.	Composed of a VM-07XX device with Internet Web Server system software assigned
+c.	An Internal Virtual Infrastructure node
+i.	Connected to the Internal LAN
+ii.	With Hypervisor system software assigned
+4.	Internal Virtual Infrastructure A, which is located at PRO-FIT Headquarters, is composed of the following devices:
+a.	VM-01XX, with Application Server system software environments assigned
+b.	VM-02XX, with Integration Server system software environments assigned
+c.	VM-03XX, with Database Management System (DBMS) system software environments assigned
+5.	Internal Virtual Infrastructure B, which is located at Home &amp; Away Headquarters, is composed of the following devices:
+a.	VM-04XX, with Distributed Operating System (DOS) system software environments assigned
+b.	VM-05XX, with Distributed File System (DFS) system software environments assigned
+c.	VM-06XX, with Intranet Web Server  system software environments assigned
+6.	The two primary data centers support the following cross-site communication paths
+a.	Message Queuing, which connects devices VM-01XX, VM-02XX, VM-03XX,  VM-04XX and VM-05XX.
+b.	Automated Failover, which connects Internal Virtual Infrastructure A and Internal Virtual Infrastructure B
+c.	Load Balancing, which connects Web Virtual Infrastructure A and Web Virtual Infrastructure B</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="2b-Layered" id="id-d440fa5a-4c07-4a88-94c2-cc923c9f2c16">
+      <child xsi:type="archimate:DiagramObject" id="id-8907a3a0-f9f9-4393-a097-344afd076393" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-4a9fa2fa-8085-4582-a9b0-561302194edc">
+        <bounds x="744" y="255" width="134" height="73"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-3f4b3b19-8b49-41e7-a96a-500cdec17cbb" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-36401e5e-c6c2-499b-a8ba-3789a81a8ecd">
+        <bounds x="300" y="252" width="204" height="73"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-37c3b37d-21c3-4cfe-9ab3-314cb2868ec7" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-c94afe58-c6d9-41bc-82a5-3e6c7d1d6503">
+        <bounds x="1056" y="258" width="169" height="67"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-01f9d8f1-dbf2-4eb9-9f04-eeaa635ec496" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-585703a8-63a0-410a-b10b-c06500021294">
+        <bounds x="751" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-1c351fc0-6c4a-4985-af36-e1f903ef5009" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-af23ac94-3c72-4868-b1c7-5fea432b643c">
+        <bounds x="564" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-78b350da-69f1-47f1-b5ee-e0836b6cb480" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-a03bec70-8f81-4e56-ae34-4bcaad339afb">
+        <bounds x="168" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-71de9bc5-b2c8-4f5d-a8e2-f25b136fa704" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-cd9d2f97-4788-49b8-a966-fdc8a44a4204">
+        <bounds x="300" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-18d99ab4-6857-4166-97ee-6037cf8a9a37" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-bacf3906-8000-49b6-ae16-043215915f4d">
+        <bounds x="432" y="384" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b9802988-f792-415d-8e55-801dae6d9cd5" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-2a92a26d-9df7-4b86-b5ef-f48a5f6eeb29">
+        <bounds x="1152" y="420" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-952850d0-cf5f-4f62-b1d7-39960daaca8b" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-3a8a4881-d3b8-4730-984d-53c980b46ff5">
+        <bounds x="1020" y="420" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-a00b5cad-c56a-47bf-96ca-15ecd61edcd6" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#b5ffff" archimateElement="id-68e1220f-de0f-4d96-8657-e431ab72048b">
+        <bounds x="477" y="504" width="207" height="67"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b816b231-911b-4d86-ab09-e424560688a0" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#b5ffff" archimateElement="id-25c519d2-c47e-478f-a1d4-2261fffd8448">
+        <bounds x="168" y="510" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-001b6029-f516-4259-bf1a-56b0e3709d4c" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#b5ffff" archimateElement="id-3f584962-d586-4500-b0e8-9f4a722e79f5">
+        <bounds x="313" y="510" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-789251bf-8db6-4588-9803-5a25dcbf928a" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#b5ffff" archimateElement="id-a3030be7-e5c5-495e-b9d3-5393b01319ad">
+        <bounds x="751" y="504" width="120" height="61"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d663e999-9694-4bc7-9ccf-fc3ddaa95e39" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#b5ffff" archimateElement="id-4604dceb-f54a-4af8-b317-4e28f178f06c">
+        <bounds x="1020" y="528" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-22338274-4973-44de-9535-e1090fd4df82" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-48d5a963-2cba-49a7-b8a3-73e4ff67bb2e">
+        <bounds x="648" y="84" width="217" height="73"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-94514de4-424b-4a2a-bdea-ae7f27590242" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-35b9c634-6ee9-4e69-9bed-5410718a75b5">
+        <bounds x="1052" y="180" width="55" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-029897d4-d155-48fe-9d20-e5ec53d36455" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-6b497932-822f-4df1-b1e5-234a44054c22">
+        <bounds x="1115" y="93" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-a0ce9c72-031a-49dc-bb4b-adfc307e0d5b" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-a2e1cf0b-c2a9-4e86-b6cc-770860899929">
+        <bounds x="1123" y="180" width="55" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-bf94f72d-2ca5-4292-a327-fe0f7ca533fa" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-7f3e1882-1672-4fd1-887b-e972ef24bfbf">
+        <bounds x="1184" y="180" width="55" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ba22639b-8cb2-479f-abc4-0f76e4243a4d" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#b5ffff" archimateElement="id-0c74d9d9-28dd-4207-b4e0-85317fbaf77c">
+        <bounds x="203" y="600" width="397" height="61"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d05e2c2d-a919-46bc-8671-766e29bb8077" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#edcfe2" archimateElement="id-2dad7714-f0df-4e57-b8e8-a84401a62cd8">
+        <bounds x="24" y="252" width="120" height="67"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-9e626960-d088-4ae5-a67c-9d1bf566bcca" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#edcfe2" archimateElement="id-8ea73951-a949-4db7-a590-4e2d02556e8d">
+        <bounds x="36" y="780" width="120" height="67"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-f5d1f863-e089-4cf6-8aa6-193bf742927c" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#edcfe2" archimateElement="id-c7db9213-07c9-401a-b6ff-78a0b0bae148">
+        <bounds x="600" y="255" width="120" height="64"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-f491ecf5-5ef3-4eba-801a-352b030a2576" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#edcfe2" archimateElement="id-ec7928ba-5ba6-4d25-9ff6-99527413a154">
+        <bounds x="599" y="714" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d635a33b-e09d-4d38-b818-1afcd7e49ab6" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#edcfe2" archimateElement="id-e24efa4a-5359-4047-a5b2-cef48f05d07a">
+        <bounds x="900" y="258" width="120" height="64"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-97aab4c6-2949-44ad-9082-d538ca28a16b" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#c9e7b7" archimateElement="id-ccfed834-caf5-47c2-acac-240a4c2d8ac4">
+        <bounds x="205" y="714" width="120" height="67"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ee3ba307-f4dc-4dec-92a7-bdf37a251690" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#c9e7b7" archimateElement="id-28f49dbe-4f9a-436d-b680-530df0e5eab9">
+        <bounds x="384" y="714" width="120" height="67"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b5fba37a-3675-43b4-9c9c-5739f7e36ad4" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#c9e7b7" archimateElement="id-e52a3f2d-cf11-44b5-9039-45a2a8589f7e">
+        <bounds x="768" y="708" width="120" height="67"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ef7e062b-cd3e-4809-b225-1abafa2b28a3" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#c9e7b7" archimateElement="id-a8532748-3c4f-4c8c-86be-dd4c30e2baa1">
+        <bounds x="920" y="708" width="120" height="67"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-2d9bda53-e0f8-4a79-9337-c3f78bf70a8d" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#c9e7b7" archimateElement="id-e6426b43-dc01-4e7b-bc66-87cfe45a2322">
+        <bounds x="1112" y="708" width="120" height="67"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-17351d3a-81d6-4b33-912d-507500fc54bf" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
+        <bounds x="209" y="79" width="185" height="80"/>
+        <content>Solution for modeling exercise 2b: Layered View</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-46f9e247-32a3-4e9a-ad65-a8ad98e43493" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
+        <bounds x="36" y="864" width="185" height="80"/>
+        <content>Copyright © The Open Group, All Rights Reserved.</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-13a0741a-e725-45dd-990b-3241f216d7c7" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#000000" archimateElement="id-09345482-15c3-4f54-aa8d-b3035e480673">
+        <bounds x="803" y="612" width="15" height="15"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-a1577a72-c093-4719-b826-097093ec7c51" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#000000" archimateElement="id-4dc1bbf7-f724-432c-a7a1-9501e7b759ca">
+        <bounds x="352" y="700" width="15" height="15"/>
+      </child>
+      <documentation>Exercise 2b: Layering
+&#xD;
+Create a Layered view that shows an overview of the new business structure and its relation to the main applications and infrastructure. Do not use nesting, but explicitly draw all the relationships.
+This view should contain the following elements:
+1.	The company ArchiSurance and the three main departments of which it is composed.
+2.	The three channels (business interfaces), which a Customer can use to contact the Front Office:
+a.	Telephone
+b.	E-mail
+c.	Web portal
+3.	The three main locations of ArchiSurance, with the two data centers as sub-locations.
+4.	The main business functions (that also appear in the Business Function view per part 2a of this exercise), and the assignments of the departments to these functions.
+5.	The main applications and back office application suite  components serving the business functions:
+a.	VERSA-CLAIM, serving the Claims function.
+b.	AUTO-U, serving the Actuarial and Underwriting functions.
+c.	P-ADMIN, serving the Underwriting and Finance functions.
+d.	Document Management System, serving the Document Processing function.
+e.	Call Center Application, serving the Customer Relations function (on behalf of various other departments that need to interact with customers via both inbound and outbound multi-channel contacts) .
+6.	The servers that realize the application components:
+a.	The ArchiSurance general-purpose and back-up server clusters realize the components of the back office application suite.
+b.	The Document management server and Document Management back-up server realize the Document Management System.
+c.	The Front office general-purpose server realizes the General CRM System and Call Center Application.
+7.	The assignments of locations to the departments and the servers.</documentation>
+    </element>
   </folder>
 </archimate:model>
