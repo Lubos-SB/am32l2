@@ -606,7 +606,7 @@
     <element xsi:type="archimate:RealizationRelationship" id="id-ff186c43-faa0-4a6b-a20f-15bff0768c39" source="id-f6d493ab-8957-4aa3-b179-7b4d52ddb1f2" target="id-c9eeae2c-d469-4c02-a0b2-de4c7a73a62a"/>
   </folder>
   <folder name="Views" id="id-e686077baa6f4fa9bbaa4283212a547b" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 02.a Business Function" id="id-0dbb13f3-4ab7-4f11-8a7f-6ed3c298faca">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 02.a Business Function" id="id-0dbb13f3-4ab7-4f11-8a7f-6ed3c298faca" viewpoint="business_process_cooperation">
       <child xsi:type="archimate:DiagramObject" id="id-b1b12403-ea12-410e-b023-5a11bdbb5334" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-4a9fa2fa-8085-4582-a9b0-561302194edc">
         <bounds x="72" y="168" width="229" height="145"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-2c1dbdd68e164b1e91f6e6c66c8bbd91" source="id-b1b12403-ea12-410e-b023-5a11bdbb5334" target="id-cca56b75-3eb2-428e-9479-f20f5f1a19d5" archimateRelationship="id-d21aa213-5fec-45e3-9afd-25ef76bd28f1"/>
@@ -698,7 +698,7 @@ Also show the main information flows, and label them with the type of informatio
 	5.	The Document Processing function exchanges documents with the Back Office department as a whole.
 	6.	The Finance Department exchanges payment details with an external role Bank.</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 05.b Capability Realization" id="id-180952e6-94d5-4e23-8ce8-0a710fca785e">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 05.b Capability Realization" id="id-180952e6-94d5-4e23-8ce8-0a710fca785e" viewpoint="layered">
       <child xsi:type="archimate:DiagramObject" id="id-b8607a79-e7fb-44be-a6f6-f516c720605f" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-a03bec70-8f81-4e56-ae34-4bcaad339afb">
         <bounds x="288" y="324" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a36092b2-7346-4c01-8b99-94c218ef99f3" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-b8607a79-e7fb-44be-a6f6-f516c720605f" target="id-9f7bbd89-978d-48f0-a010-6ac5339736ed" archimateRelationship="id-b2c1a300-b6ff-4dbb-9b02-9170ac35332a"/>
@@ -806,7 +806,7 @@ The view should contain:
 4.	A course of action “Digital customer intimacy strategy” realized by the Customer care and the IT management capabilities.
 When more than one function realizes a capability, use an And junction (solid ball) to indicate clearly that both functions are required.</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 05.a Capability Map" id="id-214c4c86-c406-4a8c-9fbf-e991dcaba4f2">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 05.a Capability Map" id="id-214c4c86-c406-4a8c-9fbf-e991dcaba4f2" viewpoint="capability">
       <child xsi:type="archimate:DiagramObject" id="id-47a8e621-a71f-47f9-963e-528bbc4345ac" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#f5deaa" archimateElement="id-821d51f0-1682-43dc-8262-018bba862bd5">
         <bounds x="744" y="210" width="301" height="181"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-b777a0d4e09b4ef0afb4dab4144f21ab" source="id-47a8e621-a71f-47f9-963e-528bbc4345ac" target="id-cfd848ca-3b3d-4c15-9e04-dec4a7ddae87" archimateRelationship="id-662dda0c-dab5-4441-aa90-de7ce6e9a305"/>
@@ -975,7 +975,7 @@ Develop a Capability Map view for ArchiSurance, which structures its business ca
 		a.	Human resources
 		b.	IT management</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 03.a Back-Office Application Cooperation" id="id-296253f7-730b-48a3-a032-13ed40c735e1">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 03.a Back-Office Application Cooperation" id="id-296253f7-730b-48a3-a032-13ed40c735e1" viewpoint="application_cooperation">
       <child xsi:type="archimate:DiagramObject" id="id-12304716-2d51-4b5c-9d9c-9bcbf1e7e8e8" targetConnections="id-4a8794c1-cee1-4060-ae8b-2140c5c203e8" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#b5ffff" archimateElement="id-68e1220f-de0f-4d96-8657-e431ab72048b">
         <bounds x="1035" y="254" width="207" height="67"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-6a632f73-22a8-497a-a0a6-62ec4b35d970" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-12304716-2d51-4b5c-9d9c-9bcbf1e7e8e8" target="id-5aae207b-516a-4eb0-bab9-4d728722cc39" archimateRelationship="id-d6a4b2ba-ebd3-4eca-a9b8-641bfb96280a"/>
@@ -1240,7 +1240,7 @@ This exercise requires the creation of an ArchiMate Application Cooperation view
 			ii. Accesses (reads) the Policy data object.
 			iii. Realizes the Claim Processing application service.</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 01.b Application Cooperation" id="id-34a95191-daf1-4ea0-a18c-acb9ad9227e9">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 01.b Application Cooperation" id="id-34a95191-daf1-4ea0-a18c-acb9ad9227e9" viewpoint="application_cooperation">
       <child xsi:type="archimate:DiagramObject" id="id-7e5bf46d-fcc1-490d-bb34-7c59d8545e18" targetConnections="id-91d9ab6b-a096-4617-9a47-268712c8a66e" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#b5ffff" archimateElement="id-78090d26-9a4d-480b-9ad1-ff8f7c67e021">
         <bounds x="840" y="144" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-cb901dcf-ebcd-4db0-8ac2-03c0aac023ec" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-7e5bf46d-fcc1-490d-bb34-7c59d8545e18" target="id-a4e6cfad-1de3-4fb0-bc7f-7b4cd4b7943f" archimateRelationship="id-92da0027-4282-405d-baaa-d4079f199f98"/>
@@ -1330,7 +1330,7 @@ Based on the analysis of the alternative solutions, ArchiSurance decides to deve
 These services can be accessed through a web front-end, which can be considered an application interface that is part of the Online Portfolio and Claims Management application.
 Show the information described above in an ArchiMate Application Cooperation view (see the ArchiMate 3.0.1 Specification, section C.1.4).</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 04.b Technology Usage" id="id-456e3a98-0e83-4730-9c5d-04a0d3330819">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 04.b Technology Usage" id="id-456e3a98-0e83-4730-9c5d-04a0d3330819" viewpoint="technology_usage">
       <child xsi:type="archimate:DiagramObject" id="id-db3b470f-6088-4261-80fb-19683f215b0e" targetConnections="id-c7495b9f-9f68-488d-bc99-8d99c2a18686 id-c1b29c77-f4bf-408b-92dc-eae4627ab87f id-d4e364a5-fb6a-4bca-8a36-f0f733046695 id-1f9f8b01-e4f0-49ea-8f0d-a078fed56075" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#b5ffff" archimateElement="id-25c519d2-c47e-478f-a1d4-2261fffd8448">
         <bounds x="300" y="240" width="120" height="55"/>
       </child>
@@ -1527,49 +1527,7 @@ This exercise requires an ArchiMate Technology Usage view (see the ArchiMate 3.0
 			i.	Web Server Directory Structure
 			ii.	Management API</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-488a70ba-6652-42fd-b752-e515473f5a8e">
-      <child xsi:type="archimate:Note" id="id-8be8e072-9460-43cb-92d1-793e68211cb7" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
-        <bounds x="392" y="411" width="185" height="80"/>
-        <content>This is an empty view. This note keeps the validator happy!</content>
-      </child>
-      <documentation>ArchiMate® Certification for People: Practical Exercises
-
-April 2020, Version 3.07
-
-© Copyright 2012-2020, The Open Group
-All rights reserved.
-
-
-Note: Modifications to the Practical Exercises are only permitted with prior approval and copies must be provided to The Open Group, including assignment of copyright to the modifications to The Open Group.
-
-
-Introduction
-This document contains five modeling exercises tailored to students who have had a thorough introduction to the ArchiMate modeling language as part of an ArchiMate Training Course.  These are a resource for use with ArchiMate 3.0 Training Courses. They have no bearing on certification, as students are solely assessed by examination. Each exercise is based on the ArchiMate 3.0 Specification and the ArchiSurance Case Study.  Each exercise consists of an overview followed by explicit instructions for creating one or more views.  
-
-We recommend that students complete at least two exercises during a Training Course. After completion of the exercise the trainer should explain a solution for the exercises as part of the course. We also recommend that a course include a complete walkthrough of at least one other of the practical exercises. 
-Each exercise stresses a different set of ArchiMate language layers and aspects.  Trainers should use their judgment in selecting the most appropriate exercises for their students.
-
-Disclaimer: The purpose of these exercises is to introduce students to ArchiMate modeling. As such, these cannot cover the complete language or all possibilities. A set of model solutions are provided, however there may also be additional ways to answer the problem. Some suggestions for how to further extend the exercises are included at the end of this document.
-
-Extension Exercises
-
-The following are some suggestions for how to extend the exercises further.
-In 2b: Layered view, model the two data centers as facilities using the physical elements.
-In 4a: Technology Landscape, model a pair of load balancing clusters in different places that each use multiple DNS services. 
-
-Strategy Layer Extension Exercise
-
-To cover more of the strategy layer, decompose the Customer Care capability in part 5b into three assigned resources:  People, Processes, and Technology.  People could include the Customer Service and QA teams as business actors.  Processes could include Call Handling and Workforce Optimization, and Technology could include a new Customer Portal.   
-
-Implementation &amp; Migration Extension Exercise
-
-To add an Implementation and Migration Diagram, model a simple &quot;waterfall&quot; design process consisting of work packages and realized plateaus.  Begin with a Project Start Event that triggers a series of work packages, each of which realizes a plateau:
-1. Planning realizes Project Plan in Place, which could aggregate a Project Plan business object.
-2.  Requirements realizes Requirements Documented, which could aggregate a Requirements Specification business object.
-3.  Design realizes solution Designed, which could aggregate a System Design business object.
-4.  Follow a similar pattern for Development, QA and Release.  The plateaus in these stages could optionally aggregate application services and/or components.</documentation>
-    </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 01.c Requirements Realization" id="id-5439ce5b-298d-4c35-8e1a-1a5a8ccd97b8">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 01.c Requirements Realization" id="id-5439ce5b-298d-4c35-8e1a-1a5a8ccd97b8" viewpoint="requirements_realization">
       <child xsi:type="archimate:DiagramObject" id="id-6961ced9-d2e8-4f34-aa84-e37aa99bb261" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-0214ccf5-4857-4cd2-addd-0b38a60c1be3">
         <bounds x="84" y="276" width="877" height="181"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-d1ff12cd-b0ae-49d6-99dd-4d44f5cb912d" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-6961ced9-d2e8-4f34-aa84-e37aa99bb261" target="id-7ee52252-b303-49d7-be96-8119da1911d2" archimateRelationship="id-549b4b00-b420-4418-beb5-6846c1196134"/>
@@ -1640,7 +1598,7 @@ This product and its services realize the requirements identified in part 1a of 
 &#xD;
 Show the information described above in a Requirements Realization view, as described in the ArchiMate Motivation viewpoints.  Use nesting for showing the relationship between the product and its services.</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 01.0 SWOT Analysis" id="id-8abd3455-1cfc-4880-a77b-0e778c826ee7">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 01.0 SWOT Analysis" id="id-8abd3455-1cfc-4880-a77b-0e778c826ee7" viewpoint="motivation">
       <child xsi:type="archimate:DiagramObject" id="id-b1c74118-47d3-4954-8b95-0850ea294747" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#ccccff" archimateElement="id-e2489273-294b-4dc4-864f-62ac39ded4e5">
         <bounds x="864" y="324" width="189" height="61"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-ec651669-12c9-465f-b45c-e695be49295a" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-b1c74118-47d3-4954-8b95-0850ea294747" target="id-85d3049c-2f11-4cd0-a43b-da1391a9bcae" archimateRelationship="id-94267f31-316a-4342-b7ad-307cfee7b0bc"/>
@@ -1705,7 +1663,7 @@ Overview
 ArchiSurance has performed a customer satisfaction SWOT (Strengths, Weaknesses, Opportunities and Threats) analysis and documented the results using the ArchiMate Motivation elements
 ArchiSurance has decomposed the assessment  “Frequent customer complaints” into more specific weaknesses. To address these weaknesses, a business goal “improve insurance portfolio and claims management” is formulated.</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 01.a Goal Contribution" id="id-aefe007c-18d8-450e-ae62-60a779d47669">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 01.a Goal Realization" id="id-aefe007c-18d8-450e-ae62-60a779d47669" viewpoint="goal_realization">
       <child xsi:type="archimate:DiagramObject" id="id-72825773-7faa-4cbe-95e7-fe94e79fc5ce" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#ccccff" archimateElement="id-a154ca8a-4d6d-473c-ab69-ad8968134773">
         <bounds x="72" y="288" width="181" height="67"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a15049c3-92eb-4832-ad4a-513540684117" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-72825773-7faa-4cbe-95e7-fe94e79fc5ce" target="id-8f023701-c6c3-41a7-b90b-629775af2d43" archimateRelationship="id-088398e7-7421-4421-8cbc-3e6bd7e711f3"/>
@@ -1774,7 +1732,7 @@ This view should contain:
 &#xD;
 	4.	A constraint that the additional personnel costs should be kept limited. The former requirement has a strong negative influence on this constraint, the latter requirement has a positive influence on this constraint.</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 03.b Application Usage" id="id-b1962f2f-abc9-49e4-bae2-02ffaf2a56ea">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 03.b Application Usage" id="id-b1962f2f-abc9-49e4-bae2-02ffaf2a56ea" viewpoint="application_usage">
       <child xsi:type="archimate:DiagramObject" id="id-baf2b74e-a75b-48e5-91da-611ab0f0f033" targetConnections="id-1bee982b-d25e-4bfb-9326-29519ebab610" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#b5ffff" archimateElement="id-18901040-3d56-4563-a91c-cdf4c6acfe63">
         <bounds x="906" y="824" width="121" height="61"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-72780600-bf7e-42b3-bb5c-af0113bf8d56" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-baf2b74e-a75b-48e5-91da-611ab0f0f033" target="id-1bd7c210-a65a-4027-9a66-63d46dba9646" archimateRelationship="id-548d3cda-9733-4c50-8904-2bcbf098817b"/>
@@ -2093,7 +2051,7 @@ This exercise requires the creation of an ArchiMate Application Usage viewpoint 
 		d.	If a Go decision occurs, triggers the Plan Product Introduction process
 		e.	If a No-Go decision occurs, triggers a repeat of the Recommend Changes to Product Portfolio Process</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 04.a Technology Landscape" id="id-c5d4420c-b562-41ba-9051-516c7b06992f">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 04.a Technology Landscape" id="id-c5d4420c-b562-41ba-9051-516c7b06992f" viewpoint="technology">
       <child xsi:type="archimate:DiagramObject" id="id-584d2935-cb52-4844-be04-c2ea093294ce" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#edcfe2" archimateElement="id-2dad7714-f0df-4e57-b8e8-a84401a62cd8">
         <bounds x="983" y="384" width="493" height="529"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-495ab502209144dbb2bcd76578f3dc6b" source="id-584d2935-cb52-4844-be04-c2ea093294ce" target="id-d259705c-3d52-4a49-b87b-a8268bde8f6f" archimateRelationship="id-ab4357d8-c125-464b-a894-16fc7cbae74f"/>
@@ -2319,7 +2277,7 @@ This exercise requires the creation of an ArchiMate Application Usage viewpoint 
         </sourceConnection>
       </child>
       <child xsi:type="archimate:Note" id="id-1e8c9be9-d722-4662-ab9f-b16919c03894" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
-        <bounds x="12" y="12" width="505" height="37"/>
+        <bounds x="12" y="12" width="553" height="37"/>
         <content>Solution for modeling exercise 4a: Technology Landscape</content>
       </child>
       <documentation>Exercise 4: Infrastructure Structure, Behavior and Usage
@@ -2372,7 +2330,7 @@ Also, since virtualized environments typically have many virtual machines devote
 		b.	Automated Failover, which connects Internal Virtual Infrastructure A and Internal Virtual Infrastructure B
 		c.	Load Balancing, which connects Web Virtual Infrastructure A and Web Virtual Infrastructure B</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 02.b Layered" id="id-d440fa5a-4c07-4a88-94c2-cc923c9f2c16">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 02.b Layered" id="id-d440fa5a-4c07-4a88-94c2-cc923c9f2c16" viewpoint="layered">
       <child xsi:type="archimate:DiagramObject" id="id-8907a3a0-f9f9-4393-a097-344afd076393" targetConnections="id-32c6246f-6269-42ff-9879-10346e718b16 id-7347b76518ed4bd29bebf92d7bb345a4" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-4a9fa2fa-8085-4582-a9b0-561302194edc">
         <bounds x="744" y="255" width="134" height="73"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-c07abb95-aee0-4d65-ab75-b7eb6a85be2a" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-8907a3a0-f9f9-4393-a097-344afd076393" target="id-01f9d8f1-dbf2-4eb9-9f04-eeaa635ec496" archimateRelationship="id-d21aa213-5fec-45e3-9afd-25ef76bd28f1"/>
