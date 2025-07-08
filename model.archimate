@@ -606,7 +606,7 @@
     <element xsi:type="archimate:RealizationRelationship" id="id-ff186c43-faa0-4a6b-a20f-15bff0768c39" source="id-f6d493ab-8957-4aa3-b179-7b4d52ddb1f2" target="id-c9eeae2c-d469-4c02-a0b2-de4c7a73a62a"/>
   </folder>
   <folder name="Views" id="id-e686077baa6f4fa9bbaa4283212a547b" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="2a-Business-function" id="id-0dbb13f3-4ab7-4f11-8a7f-6ed3c298faca">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 02.a Business Function" id="id-0dbb13f3-4ab7-4f11-8a7f-6ed3c298faca">
       <child xsi:type="archimate:DiagramObject" id="id-b1b12403-ea12-410e-b023-5a11bdbb5334" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-4a9fa2fa-8085-4582-a9b0-561302194edc">
         <bounds x="72" y="168" width="229" height="145"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-2c1dbdd68e164b1e91f6e6c66c8bbd91" source="id-b1b12403-ea12-410e-b023-5a11bdbb5334" target="id-cca56b75-3eb2-428e-9479-f20f5f1a19d5" archimateRelationship="id-d21aa213-5fec-45e3-9afd-25ef76bd28f1"/>
@@ -670,31 +670,35 @@
         <content>Solution for modeling exercise 2a: Business Function View</content>
       </child>
       <documentation>Exercise 2: Business Reorganization
+&#xD;
 Overview
+&#xD;
 After completion of the rationalization of their application portfolio, ArchiSurance decides to reorganize the structure of their business, in order to further improve efficiency:
-1.	The three back offices will be integrated to form a single back office, located at the Home &amp; Away headquarters.
-2.	The front office will be relocated to the Legally Yours headquarters.
-3.	The shared service center for document processing will remain at the PRO-FIT headquarters. 
-4.	At the Home &amp; Away and PRO-FIT headquarters, separate data centers will be established to house the IT infrastructure:
-a.	The ArchiSurance general-purpose server cluster, the Document Management back-up server and the Front Office general-purpose server will be located at the Home &amp; Away data center.
-b.	The Document Management Server and the ArchiSurance back-up server cluster, will be located at the PRO-FIT data center.
+	1.	The three back offices will be integrated to form a single back office, located at the Home &amp; Away headquarters.
+	2.	The front office will be relocated to the Legally Yours headquarters.
+	3.	The shared service center for document processing will remain at the PRO-FIT headquarters. 
+	4.	At the Home &amp; Away and PRO-FIT headquarters, separate data centers will be established to house the IT infrastructure:
+		a.	The ArchiSurance general-purpose server cluster, the Document Management back-up server and the Front Office general-purpose server will be located at the Home &amp; Away 			data center.
+		b.	The Document Management Server and the ArchiSurance back-up server cluster, will be located at the PRO-FIT data center.
 
 Exercise 2a: Business Functions
+&#xD;
 Create a view that shows the main business functions of the three departments and the information that flows between them.
-1.	The Back Office performs the business functions Underwriting, Actuarial, Claims and Finance
-2.	The Front Office performs the business functions Customer Relations and Marketing
-3.	The Shared Service Center performs the business function Document Processing.
+	1.	The Back Office performs the business functions Underwriting, Actuarial, Claims and Finance
+	2.	The Front Office performs the business functions Customer Relations and Marketing
+	3.	The Shared Service Center performs the business function Document Processing.
+&#xD;
 Also show the main information flows, and label them with the type of information that is transmitted or with the corresponding number:
-1.	The Actuarial function provides 
-a.	Pricing information (how much to charge for premium) to the Underwriting function and 
-b.	Reserving information (how much premium to retain to pay for future claims) to the Finance function.
-2.	The Claims function provides claims experience information to Actuarial for use in pricing and reserving determinations.
-3.	Actuarial provides analysis of product performance, recommendations on product design and projections of future product performance to the Marketing function.
-4.	The Claims function provides a report of claim expenses to the Finance function.
-5.	The Document Processing function exchanges documents with the Back Office department as a whole.
-6.	The Finance Department exchanges payment details with an external role Bank.</documentation>
+	1.	The Actuarial function provides 
+		a.	Pricing information (how much to charge for premium) to the Underwriting function and 
+		b.	Reserving information (how much premium to retain to pay for future claims) to the Finance function.
+	2.	The Claims function provides claims experience information to Actuarial for use in pricing and reserving determinations.
+	3.	Actuarial provides analysis of product performance, recommendations on product design and projections of future product performance to the Marketing function.
+	4.	The Claims function provides a report of claim expenses to the Finance function.
+	5.	The Document Processing function exchanges documents with the Back Office department as a whole.
+	6.	The Finance Department exchanges payment details with an external role Bank.</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="5b-Capability-Realization" id="id-180952e6-94d5-4e23-8ce8-0a710fca785e">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 05.b Capability Realization" id="id-180952e6-94d5-4e23-8ce8-0a710fca785e">
       <child xsi:type="archimate:DiagramObject" id="id-b8607a79-e7fb-44be-a6f6-f516c720605f" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-a03bec70-8f81-4e56-ae34-4bcaad339afb">
         <bounds x="288" y="324" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a36092b2-7346-4c01-8b99-94c218ef99f3" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-b8607a79-e7fb-44be-a6f6-f516c720605f" target="id-9f7bbd89-978d-48f0-a010-6ac5339736ed" archimateRelationship="id-b2c1a300-b6ff-4dbb-9b02-9170ac35332a"/>
@@ -752,7 +756,7 @@ b.	Reserving information (how much premium to retain to pay for future claims) t
         <bounds x="748" y="192" width="133" height="55"/>
       </child>
       <child xsi:type="archimate:Note" id="id-9bc3cf64-72d6-4cd6-8674-8a250c68cd73" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
-        <bounds x="60" y="228" width="185" height="80"/>
+        <bounds x="12" y="12" width="509" height="49"/>
         <content>Solution for modeling exercise 5b: Capability Realization</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-9f7bbd89-978d-48f0-a010-6ac5339736ed" targetConnections="id-a36092b2-7346-4c01-8b99-94c218ef99f3 id-3bbb2d7f-86ce-4307-b64c-4538592c59d6 id-aff4fc73-eac5-40b6-988c-52b37c4c05eb" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#000000" archimateElement="id-b5632616-2a3b-4a73-a270-c36a20fe26c5">
@@ -778,25 +782,31 @@ b.	Reserving information (how much premium to retain to pay for future claims) t
         <bounds x="942" y="672" width="132" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-877b16e0-6cb5-46c3-b618-bb2511111fc0" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-dcd0ecfe-206d-4279-80da-b907e9f40231" target="id-fae6324a-028e-491b-8c3a-09a290611d3e" archimateRelationship="id-0486ef46-ff6b-4535-a158-d990c36ba517"/>
       </child>
-      <documentation>Exercise 5b: Capability Realization
+      <documentation>Exercise 5b: Capability Realization&#xD;
+
 Create a view that shows the relationships between the main capabilities of ArchiSurance (as developed in part 5a) and the main business functions of the three departments. In addition the view should show where the new “Digital customer intimacy strategy” will fit with the capabilities and functions.
+&#xD;
 The view should contain:
-1.	The business functions shown as realizing the high level capabilities identified in part 5a of this exercise: 
-•	Marketing, which studies, plans, promotes, and manages products and market segments, and works with Actuarial to design products
-•	Actuarial, which determines product prices and reserve levels, works with marketing to design new products, and analyzes enterprise risk
-•	Customer Relations, which includes the interactions between ArchiSurance and its customers; it handles customer questions, captures incoming claims, and conducts direct marketing campaigns
-•	Underwriting, which sets prices for individual policies and generates insurance proposals and policies
-•	Claims, which formulates and executes a response to each claim against an ArchiSurance policy
-•	Sales, which manages a pipeline of opportunities, and closes contracts with customers
-•	Finance, which handles regular premium collection and the payment of insurance claims
-•	Investment Management, which manages financial and real estate assets for maximum returns within corporate and regulatory liquidity and risk constraints
-•	IT service management, a supporting function for the business
+&#xD;
+	1.	The business functions shown as realizing the high level capabilities identified in part 5a of this exercise: 
+		•	Marketing, which studies, plans, promotes, and manages products and market segments, and works with Actuarial to design products
+		•	Actuarial, which determines product prices and reserve levels, works with marketing to design new products, and analyzes enterprise risk
+		•	Customer Relations, which includes the interactions between ArchiSurance and its customers; it handles customer questions, captures incoming claims, and conducts direct 			marketing campaigns
+		•	Underwriting, which sets prices for individual policies and generates insurance proposals and policies
+		•	Claims, which formulates and executes a response to each claim against an ArchiSurance policy
+		•	Sales, which manages a pipeline of opportunities, and closes contracts with customers
+		•	Finance, which handles regular premium collection and the payment of insurance claims
+		•	Investment Management, which manages financial and real estate assets for maximum returns within corporate and regulatory liquidity and risk constraints
+		•	IT service management, a supporting function for the business
+&#xD;
 2.	The Claims Management capability is realized by the Claims, Underwriting and Actuarial business functions.
+&#xD;
 3.	The Finance business function realizes both the Money Management capability and the Asset Management capability
+&#xD;
 4.	A course of action “Digital customer intimacy strategy” realized by the Customer care and the IT management capabilities.
 When more than one function realizes a capability, use an And junction (solid ball) to indicate clearly that both functions are required.</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="5a-Capability-Map" id="id-214c4c86-c406-4a8c-9fbf-e991dcaba4f2">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 05.a Capability Map" id="id-214c4c86-c406-4a8c-9fbf-e991dcaba4f2">
       <child xsi:type="archimate:DiagramObject" id="id-47a8e621-a71f-47f9-963e-528bbc4345ac" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#f5deaa" archimateElement="id-821d51f0-1682-43dc-8262-018bba862bd5">
         <bounds x="744" y="210" width="301" height="181"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-b777a0d4e09b4ef0afb4dab4144f21ab" source="id-47a8e621-a71f-47f9-963e-528bbc4345ac" target="id-cfd848ca-3b3d-4c15-9e04-dec4a7ddae87" archimateRelationship="id-662dda0c-dab5-4441-aa90-de7ce6e9a305"/>
@@ -907,7 +917,7 @@ When more than one function realizes a capability, use an And junction (solid ba
         </child>
       </child>
       <child xsi:type="archimate:Note" id="id-a9b03e03-a630-4a77-8822-f1d1092d9715" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
-        <bounds x="12" y="12" width="185" height="80"/>
+        <bounds x="12" y="12" width="481" height="37"/>
         <content>Solution for modeling exercise 5a: Capability Map</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-949470bf-9da6-4e15-88b7-46ba4939acc5" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#f5deaa" archimateElement="id-d27381b0-31b4-4f95-a0a1-a937fc50e9a0">
@@ -922,40 +932,50 @@ When more than one function realizes a capability, use an And junction (solid ba
         </child>
       </child>
       <documentation>Exercise 5: Strategic Direction
+&#xD;
 Overview
 ArchiSurance needs to improve or change several of its capabilities to implement the strategic and operational changes it envisages. The Baseline Business Architecture is being developed, which includes a map of the current capabilities of the organization, together with an analysis of the current business functions.
 
 Exercise 5a: Capability Map
+&#xD;
 This exercise requires an ArchiMate Capability Map view (see the ArchiMate 3.0 Specification, Section C.3.2) that depicts a structured overview of the capabilities of an enterprise.  
-Develop a Capability Map view for ArchiSurance, which structures its business capabilities in a two-level hierarchy, with each Level 1 capability consisting of multiple Level 2 capabilities. This view should contain:
-1.	A Level 1 Product management capability consisting of Level 2 Product Definition and Product engineering capabilities.
-2.	A Level 1 Marketing capability consisting of Level 2 Market development and Campaign management capabilities
-3.	A Level 1 Sales and Distribution capability consisting of  Level 2 Distribution channel management and sales execution capabilities
-4.	A Level 1 Customer Care capability consisting of four Level 2 capabilities:
-a.	Customer service
-b.	Customer relationship management
-c.	Service channel management
-d.	Customer data management
-5.	A Level 1 Claim Management capability consisting of four Level 2 capabilities:
-a.	Contract lifecycle management
-b.	Claim settlement
-c.	Contract administration
-d.	Claim administration
-6.	A Level 1 Asset Management capability consisting of four Level 2 capabilities
-a.	Investment strategy management
-b.	Investment performance management
-c.	Investment portfolio management
-d.	Asset inventory management
-7.	A Level 1 Money Management capability consisting of four Level 2 capabilities
-a.	Banking management
-b.	Cash flow management
-c.	Accounts management
-d.	Money market management
-8.	A Level 1 Business support capability consisting of two Level 2 capabilities
-a.	Human resources
-b.	IT management</documentation>
+Develop a Capability Map view for ArchiSurance, which structures its business capabilities in a two-level hierarchy, with each Level 1 capability consisting of multiple Level 2 capabilities. This view should contain:&#xD;
+
+	1.	A Level 1 Product management capability consisting of Level 2 Product Definition and Product engineering capabilities.&#xD;
+
+	2.	A Level 1 Marketing capability consisting of Level 2 Market development and Campaign management capabilities&#xD;
+
+	3.	A Level 1 Sales and Distribution capability consisting of  Level 2 Distribution channel management and sales execution capabilities&#xD;
+
+	4.	A Level 1 Customer Care capability consisting of four Level 2 capabilities:
+		a.	Customer service
+		b.	Customer relationship management
+		c.	Service channel management
+		d.	Customer data management&#xD;
+
+	5.	A Level 1 Claim Management capability consisting of four Level 2 capabilities:
+		a.	Contract lifecycle management
+		b.	Claim settlement
+		c.	Contract administration
+		d.	Claim administration&#xD;
+
+	6.	A Level 1 Asset Management capability consisting of four Level 2 capabilities
+		a.	Investment strategy management
+		b.	Investment performance management
+		c.	Investment portfolio management
+		d.	Asset inventory management&#xD;
+
+	7.	A Level 1 Money Management capability consisting of four Level 2 capabilities
+		a.	Banking management
+		b.	Cash flow management
+		c.	Accounts management
+		d.	Money market management&#xD;
+
+	8.	A Level 1 Business support capability consisting of two Level 2 capabilities
+		a.	Human resources
+		b.	IT management</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="3a-Back-Office Application Cooperation" id="id-296253f7-730b-48a3-a032-13ed40c735e1">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 03.a Back-Office Application Cooperation" id="id-296253f7-730b-48a3-a032-13ed40c735e1">
       <child xsi:type="archimate:DiagramObject" id="id-12304716-2d51-4b5c-9d9c-9bcbf1e7e8e8" targetConnections="id-4a8794c1-cee1-4060-ae8b-2140c5c203e8" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#b5ffff" archimateElement="id-68e1220f-de0f-4d96-8657-e431ab72048b">
         <bounds x="1035" y="254" width="207" height="67"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-6a632f73-22a8-497a-a0a6-62ec4b35d970" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-12304716-2d51-4b5c-9d9c-9bcbf1e7e8e8" target="id-5aae207b-516a-4eb0-bab9-4d728722cc39" archimateRelationship="id-d6a4b2ba-ebd3-4eca-a9b8-641bfb96280a"/>
@@ -1140,76 +1160,87 @@ b.	IT management</documentation>
         <content>Solution for modeling exercise 3a: Back-Office Application Cooperation</content>
       </child>
       <documentation>Exercise 3: Back-Office Application Cooperation and Usage   
+&#xD;
 Overview
+&#xD;
 ArchiSurance is migrating its core business functions to an integrated suite consisting of the following applications:  
-•	AUTO-U, an automated underwriting system that generates proposals and policies.
-•	P-ADMIN, a packaged policy administration system that integrates with the automated underwriting system to issues, modifies and renews policies. This system also handles customer accounting and billing.
-•	VERSA-CLAIM, a packaged claims system with screens and workflow that can be configured to support ArchiSurance’ s diverse lines of business.
-•	P-CONFIG, a product configurator management used to define all insurance products, and expose these definitions to other applications through web services.
-•	BRIMS, a business rule management system (BRMS) consisting of a rules repository, a processing engine, a rule development environment, and an authoring tool for rule management applications (RMAs). The business rule engine exposes rule execution capabilities to other applications through web services. 
-•	SIM-INSURE, an insurance business simulation package that works with other applications to enable ArchiSurance experts to simulate the business performance of new and changed products under development. 
+	•	AUTO-U, an automated underwriting system that generates proposals and policies.
+	•	P-ADMIN, a packaged policy administration system that integrates with the automated underwriting system to issues, modifies and renews policies. This system also handles 		customer accounting and billing.
+	•	VERSA-CLAIM, a packaged claims system with screens and workflow that can be configured to support ArchiSurance’ s diverse lines of business.
+	•	P-CONFIG, a product configurator management used to define all insurance products, and expose these definitions to other applications through web services.
+	•	BRIMS, a business rule management system (BRMS) consisting of a rules repository, a processing engine, a rule development environment, and an authoring tool for rule 		management applications (RMAs). The business rule engine exposes rule execution capabilities to other applications through web services. 
+	•	SIM-INSURE, an insurance business simulation package that works with other applications to enable ArchiSurance experts to simulate the business performance of new and 		changed products under development. 
+&#xD;
 As ArchiSurance unifies its back-offices, its product development processes are changing significantly.  The new processes use sophisticated Business Intelligence and Product Simulation application services to analyze the ArchiSurance product portfolio, to identify necessary changes and to iteratively model and validate those changes.  The new processes also involve careful review at progressively higher levels of the organization.  
 
 Exercise 3a: Back-Office Application Cooperation
+&#xD;
 This exercise requires the creation of an ArchiMate Application Cooperation view (see the ArchiMate 3.0 Specification, section C.1.4).   This view depicts application components that perform functions, access data objects, transfer data, expose interfaces, participate in collaborations, and realize services.  
-1.  The BRIMS application component is assigned to the following application functions:
-a. Business Rule Management, which 
-i.  Is composed of two functions:
-	 	1. Business Rule Lifecycle Management
-	 	2. Business Rule Reporting &amp; Analysis
-	ii. Sends (model as flow) Business Rule sets to the RMA Definition function
-	iii. Sends Business Rule Sets to the Business Rule Execution function
-	iv. Receives (model as flow) Business Rules from the Business Rule Definition function
-	v. Realizes the Business Rule Management application service
-b.  Business Rule Definition, which 
-i. Sends Business Rules to the Business Rule Management function
-ii. Realizes the Business Rule Development application service
-c.  Rule Management Application (RMA) Definition, which 
-i.  Receives Business Rule Sets from the Business Rule Management function
-ii. Sends RMAs to the RMA Execution function
-iii. Realizes the RMA Development application service
-	d.   RMA Execution, which 
-i.  Sends Business Rule Sets to the Business Rule Execution function
-ii.  Receives RMAs from the RMA definition function
-e. Business Rule Execution, which
-i. Receives Business Rule Sets from the Business Rule Management function
-ii. Receives Business Rule Sets from the RMA Execution function
-2.  The BRIMS application component also
-	a. Accesses (writes to) the following data objects:  
-i. RMA Definition
-ii Business Rule Sets
-	b.  Provides two application interfaces
-i.  Business Rule Execution API
-ii. Business Rule Management API 
-3.  The P-CONFIG application component is assigned to the following application functions
-	a.  Product Configuration Management, which 
-i.  Is composed of two functions:
-			a. Product Configuration Lifecycle Management
-			b. Product Configuration Reporting &amp; Analysis
-		ii.  Receives Product Configurations from the Product Configuration Definition function
-	iii. Sends Product Configurations to the Product Configuration Retrieval &amp; Execution function
-b.  Product Configuration Definition, which sends Product Configurations to the Product Configuration Management function.
-c.  Product Configuration Retrieval &amp; Execution, which receives Product Configurations from the Product Configuration Management function.
-4. The P-CONFIG application component also
-	a.  Accesses (writes to) the Production Configuration data object.
-	b.  Accesses (reads) the Business Rule Set data object.
-	c.  Uses the Business Rule Execution API.
-	d.  Uses the Business Rule Management API.
-5. BRIMS and P-CONFIG are aggregated by the Product Definition application collaboration, which is assigned to the Define Products application interaction, which in turn realizes the Product Lifecycle Management Application service.  
-6. The P-CONFIG component exposes a Product Configuration Retrieval &amp; Execution API application interface.
-7. The following application components all use the Product Configuration Retrieval &amp; Execution API:
-	a.  AUTO-U, which also
-		i. Accesses (writes to) the Policy data object.
-		ii. Realizes the Automated Underwriting application service.
-	b.  P-ADMIN, which also
-		i. Accesses (reads) the Policy data object.
-		ii. Realizes the Policy Administration application service.
-	c. VERSA-CLAIM, which also 
-i. Accesses (writes to) the Claim data object.
-ii. Accesses (reads) the Policy data object.
-		ii. Realizes the Claim Processing application service.</documentation>
+&#xD;
+	1.  The BRIMS application component is assigned to the following application functions:
+		a. Business Rule Management, which 
+			i.  Is composed of two functions:
+	 			1. Business Rule Lifecycle Management
+	 			2. Business Rule Reporting &amp; Analysis
+			ii. Sends (model as flow) Business Rule sets to the RMA Definition function
+			iii. Sends Business Rule Sets to the Business Rule Execution function
+			iv. Receives (model as flow) Business Rules from the Business Rule Definition function
+			v. Realizes the Business Rule Management application service
+		b.  Business Rule Definition, which 
+			i. Sends Business Rules to the Business Rule Management function
+			ii. Realizes the Business Rule Development application service
+		c.  Rule Management Application (RMA) Definition, which 
+			i.  Receives Business Rule Sets from the Business Rule Management function
+			ii. Sends RMAs to the RMA Execution function
+			iii. Realizes the RMA Development application service
+		d.   RMA Execution, which 
+			i.  Sends Business Rule Sets to the Business Rule Execution function
+			ii.  Receives RMAs from the RMA definition function
+		e. Business Rule Execution, which
+			i. Receives Business Rule Sets from the Business Rule Management function
+			ii. Receives Business Rule Sets from the RMA Execution function&#xD;
+
+	2.  The BRIMS application component also
+		a. Accesses (writes to) the following data objects:  
+			i. RMA Definition
+			ii Business Rule Sets
+		b.  Provides two application interfaces
+			i.  Business Rule Execution API
+			ii. Business Rule Management API &#xD;
+
+	3.  The P-CONFIG application component is assigned to the following application functions
+		a.  Product Configuration Management, which 
+			i.  Is composed of two functions:
+				a. Product Configuration Lifecycle Management
+				b. Product Configuration Reporting &amp; Analysis
+			ii.  Receives Product Configurations from the Product Configuration Definition function
+			iii. Sends Product Configurations to the Product Configuration Retrieval &amp; Execution function
+		b.  Product Configuration Definition, which sends Product Configurations to the Product Configuration Management function.
+		c.  Product Configuration Retrieval &amp; Execution, which receives Product Configurations from the Product Configuration Management function.&#xD;
+
+	4. The P-CONFIG application component also
+		a.  Accesses (writes to) the Production Configuration data object.
+		b.  Accesses (reads) the Business Rule Set data object.
+		c.  Uses the Business Rule Execution API.
+		d.  Uses the Business Rule Management API.&#xD;
+
+	5. BRIMS and P-CONFIG are aggregated by the Product Definition application collaboration, which is assigned to the Define Products application interaction, which in turn realizes 		the Product Lifecycle Management Application service.  &#xD;
+
+	6. The P-CONFIG component exposes a Product Configuration Retrieval &amp; Execution API application interface.&#xD;
+
+	7. The following application components all use the Product Configuration Retrieval &amp; Execution API:
+		a.  AUTO-U, which also
+			i. Accesses (writes to) the Policy data object.
+			ii. Realizes the Automated Underwriting application service.
+		b.  P-ADMIN, which also
+			i. Accesses (reads) the Policy data object.
+			ii. Realizes the Policy Administration application service.
+		c. VERSA-CLAIM, which also 
+			i. Accesses (writes to) the Claim data object.
+			ii. Accesses (reads) the Policy data object.
+			iii. Realizes the Claim Processing application service.</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="1b-Application-Cooperation" id="id-34a95191-daf1-4ea0-a18c-acb9ad9227e9">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 01.b Application Cooperation" id="id-34a95191-daf1-4ea0-a18c-acb9ad9227e9">
       <child xsi:type="archimate:DiagramObject" id="id-7e5bf46d-fcc1-490d-bb34-7c59d8545e18" targetConnections="id-91d9ab6b-a096-4617-9a47-268712c8a66e" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#b5ffff" archimateElement="id-78090d26-9a4d-480b-9ad1-ff8f7c67e021">
         <bounds x="840" y="144" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-cb901dcf-ebcd-4db0-8ac2-03c0aac023ec" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-7e5bf46d-fcc1-490d-bb34-7c59d8545e18" target="id-a4e6cfad-1de3-4fb0-bc7f-7b4cd4b7943f" archimateRelationship="id-92da0027-4282-405d-baaa-d4079f199f98"/>
@@ -1289,14 +1320,17 @@ ii. Accesses (reads) the Policy data object.
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="id-a2792956-537f-4e4e-868b-9251cc558446" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-a4e6cfad-1de3-4fb0-bc7f-7b4cd4b7943f" target="id-be8b9906-aea7-49e9-8a22-0449819c777d" archimateRelationship="id-7b8fdb35-1d8f-4f33-b565-e688e7253c72"/>
       </child>
-      <documentation>Exercise 1b: Application Co-operation
+      <documentation>Exercise 1b: Application Co-operation&#xD;
+
 Based on the analysis of the alternative solutions, ArchiSurance decides to develop a solution for online insurance portfolio and claims management. A new application (“Online Insurance Portfolio and Claims Management”) collaborates with existing components from ArchiSurance’s back-office application suite to realize web-based services for the customers:
-1.	Services for entering portfolio updates, accessing portfolio information, and accessing invoice information. These services are realized by a collaboration (“Administration”) with the P-ADMIN component. 
-2.	Services for submitting claims and accessing the status of current claims. These services are realized by a collaboration (“Claims”) with the VERSA-CLAIM component.
+&#xD;
+	1.	Services for entering portfolio updates, accessing portfolio information, and accessing invoice information. These services are realized by a collaboration (“Administration”) with the P-ADMIN component. 
+&#xD;
+	2.	Services for submitting claims and accessing the status of current claims. These services are realized by a collaboration (“Claims”) with the VERSA-CLAIM component.
 These services can be accessed through a web front-end, which can be considered an application interface that is part of the Online Portfolio and Claims Management application.
 Show the information described above in an ArchiMate Application Cooperation view (see the ArchiMate 3.0.1 Specification, section C.1.4).</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="4b-Technology-Usage" id="id-456e3a98-0e83-4730-9c5d-04a0d3330819">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 04.b Technology Usage" id="id-456e3a98-0e83-4730-9c5d-04a0d3330819">
       <child xsi:type="archimate:DiagramObject" id="id-db3b470f-6088-4261-80fb-19683f215b0e" targetConnections="id-c7495b9f-9f68-488d-bc99-8d99c2a18686 id-c1b29c77-f4bf-408b-92dc-eae4627ab87f id-d4e364a5-fb6a-4bca-8a36-f0f733046695 id-1f9f8b01-e4f0-49ea-8f0d-a078fed56075" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#b5ffff" archimateElement="id-25c519d2-c47e-478f-a1d4-2261fffd8448">
         <bounds x="300" y="240" width="120" height="55"/>
       </child>
@@ -1422,7 +1456,7 @@ Show the information described above in an ArchiMate Application Cooperation vie
         <sourceConnection xsi:type="archimate:Connection" id="id-80e18503-ea84-4935-bd0b-3f094728c245" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-8dc92100-aab5-4788-aaab-ca052f7741f4" target="id-704db050-472a-4ce1-9c31-d918c3afc3b8" archimateRelationship="id-242828ad-7377-45af-b88e-f2cc17ec1b92"/>
       </child>
       <child xsi:type="archimate:Note" id="id-f960a52c-0a36-4b53-903c-54f2d53c48dc" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
-        <bounds x="9" y="12" width="185" height="80"/>
+        <bounds x="9" y="12" width="484" height="37"/>
         <content>Solution for modeling exercise 4b:
 Technology Usage</content>
       </child>
@@ -1460,34 +1494,38 @@ Technology Usage</content>
         <sourceConnection xsi:type="archimate:Connection" id="id-4ce5fdf0-aae8-4617-b08b-20bf3af42b67" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-a3b2b193-8f3f-40ad-bedf-db2f4cb5b3d6" target="id-f76df4c3-1e1a-4d42-b144-808064e57a8a" archimateRelationship="id-7f01ac98-f6a9-4cdf-8cb6-1311c1b8788a"/>
       </child>
       <documentation>Exercise 4b: Technology Usage
+&#xD;
 This exercise requires an ArchiMate Technology Usage view (see the ArchiMate 3.0.1 Specification, Section C.1.8) that depicts system software environments and application components using technology services via assigned technology interfaces.  System software realizes these services.  Service realization and usage occurs on two levels: the hypervisor realizes virtual hosting services serving system software environments, which in turn realize services serving applications. For simplicity, this exercise assumes that Hypervisor A at PRO-FIT headquarters is hosting all back-office applications.
-1.	Hypervisor A realizes the following infrastructure services:
-a.	Virtual Hosting, which is assigned to the Virtual Machine infrastructure interface.
-b.	Hosting Management, which is assigned to the Management Application Programming Interface (API).
-2.	The following system software environments use the Virtual Machine infrastructure interface and realize technology services assigned to additional technology interfaces:
-a.	Internet Web Server realizes the Internet Web Hosting service assigned to the Content Repository technology interface.
-b.	Application Server realizes the Application Hosting service assigned to the Application Container technology interface
-c.	Integration Server realizes the Application Access service  assigned to the SOAP/XML Client technology interface
-d.	Database Management System (DBMS) realizes the Data Access service assigned to the Open Database Connectivity (ODBC) Client technology interface
-e.	Intranet Web Server realizes the Intranet Web Hosting service assigned to the Web Server Directory Structure technology interface
-f.	Distributed Operating System (DOS) realizes the Collaborative Application Hosting service assigned to the Domain Server Directory Structure technology interface
-g.	Distributed File System (DFS) realizes the File Sharing service assigned to the File Server Directory Structure technology interface
-3.	The following application components use the technology interfaces:
-a.	Q-CLAIM, an online self-service claim entry application uses 
-i.	Content Repository
-ii.	Application Container
-b.	VERSA-CLAIM, a claims processing application uses 
-i.	Application Container
-ii.	SOAP/XML Client
-iii.	ODBC Client
-iv.	Web Server Directory Structure
-c.	DOC-SHARE, a document collaboration application uses
-i.	Web Server Directory Structure
-ii.	Domain Server Directory Structure
-iii.	File Server Directory Structure
-d.	V-MAN, a  virtualized hosting management tool  uses
-i.	Web Server Directory Structure
-ii.	Management API</documentation>
+&#xD;
+	1.	Hypervisor A realizes the following infrastructure services:
+		a.	Virtual Hosting, which is assigned to the Virtual Machine infrastructure interface.
+		b.	Hosting Management, which is assigned to the Management Application Programming Interface (API).
+&#xD;
+	2.	The following system software environments use the Virtual Machine infrastructure interface and realize technology services assigned to additional technology interfaces:
+		a.	Internet Web Server realizes the Internet Web Hosting service assigned to the Content Repository technology interface.
+		b.	Application Server realizes the Application Hosting service assigned to the Application Container technology interface
+		c.	Integration Server realizes the Application Access service  assigned to the SOAP/XML Client technology interface
+		d.	Database Management System (DBMS) realizes the Data Access service assigned to the Open Database Connectivity (ODBC) Client technology interface
+		e.	Intranet Web Server realizes the Intranet Web Hosting service assigned to the Web Server Directory Structure technology interface
+		f.	Distributed Operating System (DOS) realizes the Collaborative Application Hosting service assigned to the Domain Server Directory Structure technology interface
+		g.	Distributed File System (DFS) realizes the File Sharing service assigned to the File Server Directory Structure technology interface
+&#xD;
+	3.	The following application components use the technology interfaces:
+		a.	Q-CLAIM, an online self-service claim entry application uses 
+			i.	Content Repository
+			ii.	Application Container
+		b.	VERSA-CLAIM, a claims processing application uses 
+			i.	Application Container
+			ii.	SOAP/XML Client
+			iii.	ODBC Client
+			iv.	Web Server Directory Structure
+		c.	DOC-SHARE, a document collaboration application uses
+			i.	Web Server Directory Structure
+			ii.	Domain Server Directory Structure
+			iii.	File Server Directory Structure
+		d.	V-MAN, a  virtualized hosting management tool  uses
+			i.	Web Server Directory Structure
+			ii.	Management API</documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-488a70ba-6652-42fd-b752-e515473f5a8e">
       <child xsi:type="archimate:Note" id="id-8be8e072-9460-43cb-92d1-793e68211cb7" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
@@ -1531,7 +1569,7 @@ To add an Implementation and Migration Diagram, model a simple &quot;waterfall&q
 3.  Design realizes solution Designed, which could aggregate a System Design business object.
 4.  Follow a similar pattern for Development, QA and Release.  The plateaus in these stages could optionally aggregate application services and/or components.</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="1c-Requirements-Realization" id="id-5439ce5b-298d-4c35-8e1a-1a5a8ccd97b8">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 01.c Requirements Realization" id="id-5439ce5b-298d-4c35-8e1a-1a5a8ccd97b8">
       <child xsi:type="archimate:DiagramObject" id="id-6961ced9-d2e8-4f34-aa84-e37aa99bb261" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-0214ccf5-4857-4cd2-addd-0b38a60c1be3">
         <bounds x="84" y="276" width="877" height="181"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-d1ff12cd-b0ae-49d6-99dd-4d44f5cb912d" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-6961ced9-d2e8-4f34-aa84-e37aa99bb261" target="id-7ee52252-b303-49d7-be96-8119da1911d2" archimateRelationship="id-549b4b00-b420-4418-beb5-6846c1196134"/>
@@ -1590,16 +1628,19 @@ To add an Implementation and Migration Diagram, model a simple &quot;waterfall&q
         <bounds x="12" width="517" height="37"/>
         <content>Solution for modeling exercise 1c: Requirements Realization View</content>
       </child>
-      <documentation>Exercise 1c: Requirements Realization
+      <documentation>Exercise 1c: Requirements Realization&#xD;
+
 The application services described in part 1b of this exercise are part of a product called “Online Insurance Portfolio and Claims management”. This product also incorporates a contract that states its conditions of use.
+&#xD;
 This product and its services realize the requirements identified in part 1a of this exercise:
-1.	The product as a whole realizes the high-level requirement “Provide support for online portfolio and claims management”.
-2.	The services for portfolio updates, portfolio information and invoice information realize the requirement “Provide online portfolio information”.
-3.	The service for submitting claims realizes the requirement “Provide online claim submission”.
-4.	The service for accessing the status of current claims realizes the requirement “Provide online claim information”.
+	1.	The product as a whole realizes the high-level requirement “Provide support for online portfolio and claims management”.
+	2.	The services for portfolio updates, portfolio information and invoice information realize the requirement “Provide online portfolio information”.
+	3.	The service for submitting claims realizes the requirement “Provide online claim submission”.
+	4.	The service for accessing the status of current claims realizes the requirement “Provide online claim information”.
+&#xD;
 Show the information described above in a Requirements Realization view, as described in the ArchiMate Motivation viewpoints.  Use nesting for showing the relationship between the product and its services.</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="1-Swot-Analysis" id="id-8abd3455-1cfc-4880-a77b-0e778c826ee7">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 01.0 SWOT Analysis" id="id-8abd3455-1cfc-4880-a77b-0e778c826ee7">
       <child xsi:type="archimate:DiagramObject" id="id-b1c74118-47d3-4954-8b95-0850ea294747" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#ccccff" archimateElement="id-e2489273-294b-4dc4-864f-62ac39ded4e5">
         <bounds x="864" y="324" width="189" height="61"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-ec651669-12c9-465f-b45c-e695be49295a" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-b1c74118-47d3-4954-8b95-0850ea294747" target="id-85d3049c-2f11-4cd0-a43b-da1391a9bcae" archimateRelationship="id-94267f31-316a-4342-b7ad-307cfee7b0bc"/>
@@ -1658,11 +1699,13 @@ Show the information described above in a Requirements Realization view, as desc
         <content>Threat</content>
       </child>
       <documentation>Exercise 1: Online Insurance Portfolio and Claims Management
+&#xD;
 Overview
+&#xD;
 ArchiSurance has performed a customer satisfaction SWOT (Strengths, Weaknesses, Opportunities and Threats) analysis and documented the results using the ArchiMate Motivation elements
 ArchiSurance has decomposed the assessment  “Frequent customer complaints” into more specific weaknesses. To address these weaknesses, a business goal “improve insurance portfolio and claims management” is formulated.</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="1a-Goal-Contribution" id="id-aefe007c-18d8-450e-ae62-60a779d47669">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 01.a Goal Contribution" id="id-aefe007c-18d8-450e-ae62-60a779d47669">
       <child xsi:type="archimate:DiagramObject" id="id-72825773-7faa-4cbe-95e7-fe94e79fc5ce" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#ccccff" archimateElement="id-a154ca8a-4d6d-473c-ab69-ad8968134773">
         <bounds x="72" y="288" width="181" height="67"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a15049c3-92eb-4832-ad4a-513540684117" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-72825773-7faa-4cbe-95e7-fe94e79fc5ce" target="id-8f023701-c6c3-41a7-b90b-629775af2d43" archimateRelationship="id-088398e7-7421-4421-8cbc-3e6bd7e711f3"/>
@@ -1713,18 +1756,25 @@ ArchiSurance has decomposed the assessment  “Frequent customer complaints” i
         <sourceConnection xsi:type="archimate:Connection" id="id-c91c51c9-804d-49b1-b79c-bd3ae67b90a0" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-b789fb9a-f385-40a9-bb06-4cd472f1acfd" target="id-3d243de5-8b75-48a4-82dd-9a6f3df66604" archimateRelationship="id-27581d5c-d15a-4c20-aa34-66192eadef6a"/>
       </child>
       <documentation>Exercise 1a: Goal Realization
-ArchiSurance is exploring two different options for improving customer satisfaction.  While both options realize the goal “Improve Insurance Portfolio and Claims management”, they have very different requirements.  Develop a Goal Realization View (see the ArchiMate 3.0 Specification, section C.2.2) that explores these alternatives. This view should contain:
-1.	The business goal “Improve insurance portfolio and claims management”
-2.	Two possible solutions, modeled as requirements:
-a.	Provide personal assistance to each customer via phone, e-mail and web chat.
-b.	Provide support for online portfolio and claims management. This requirement is refined into a number of more detailed requirements:
-i.	Provide online portfolio information.
-ii.	Provide online claim information.
-iii.	Provide online claim submission.
-3.	A principle “Systems should be customer-facing”. Requirement 2a has a (strong) negative influence on this principle, requirement 2b  has a (strong) positive influence on this principle.
-4.	A constraint that the additional personnel costs should be kept limited. The former requirement has a strong negative influence on this constraint, the latter requirement has a positive influence on this constraint.</documentation>
+&#xD;
+ArchiSurance is exploring two different options for improving customer satisfaction.  While both options realize the goal “Improve Insurance Portfolio and Claims management”, they have very different requirements.  Develop a Goal Realization View (see the ArchiMate 3.0 Specification, section C.2.2) that explores these alternatives. &#xD;
+&#xD;
+This view should contain:
+&#xD;
+	1.	The business goal “Improve insurance portfolio and claims management”
+&#xD;
+	2.	Two possible solutions, modeled as requirements:
+		a.	Provide personal assistance to each customer via phone, e-mail and web chat.
+		b.	Provide support for online portfolio and claims management. This requirement is refined into a number of more detailed requirements:
+			i.	Provide online portfolio information.
+			ii.	Provide online claim information.
+			iii.	Provide online claim submission.
+&#xD;
+	3.	A principle “Systems should be customer-facing”. Requirement 2a has a (strong) negative influence on this principle, requirement 2b  has a (strong) positive influence on this principle.
+&#xD;
+	4.	A constraint that the additional personnel costs should be kept limited. The former requirement has a strong negative influence on this constraint, the latter requirement has a positive influence on this constraint.</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="3b-Application-Usage" id="id-b1962f2f-abc9-49e4-bae2-02ffaf2a56ea">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 03.b Application Usage" id="id-b1962f2f-abc9-49e4-bae2-02ffaf2a56ea">
       <child xsi:type="archimate:DiagramObject" id="id-baf2b74e-a75b-48e5-91da-611ab0f0f033" targetConnections="id-1bee982b-d25e-4bfb-9326-29519ebab610" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#b5ffff" archimateElement="id-18901040-3d56-4563-a91c-cdf4c6acfe63">
         <bounds x="906" y="824" width="121" height="61"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-72780600-bf7e-42b3-bb5c-af0113bf8d56" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-baf2b74e-a75b-48e5-91da-611ab0f0f033" target="id-1bd7c210-a65a-4027-9a66-63d46dba9646" archimateRelationship="id-548d3cda-9733-4c50-8904-2bcbf098817b"/>
@@ -1971,71 +2021,79 @@ iii.	Provide online claim submission.
         <bounds x="12" y="36" width="257" height="80"/>
         <content>Solution for modeling exercise 3b: Application Usage for Product Development</content>
       </child>
-      <documentation>Exercise 3b:  Application Usage for Product Development
+      <documentation>Exercise 3b:  Application Usage for Product Development&#xD;
+
 This exercise requires the creation of an ArchiMate Application Usage viewpoint (see the ArchiMate 3.0.1 Specification, section C.1.5) that depicts a series of business processes performed by business collaborations.  These processes access business objects and use application services.  The application services are realized by application components that access data objects.  Some of these data objects in turn realize business objects that are accessed by the business processes.  All of the data objects are aggregated by an Enterprise Data Warehouse data object.
-1.	The Enterprise Data Warehouse (EDW) aggregates the following data objects:
-a.	Market Statistics
-b.	Market Analysis, which realizes the Market Conditions business object.
-c.	Product Analysis, which realizes the Product Performance business object.
-d.	Candidate Business Rule Set
-e.	Candidate Product Configuration
-2.	The following application components access the EDW:
-a.	Business Analytics Suite, which 
-i.	Accesses (reads) the entire EDW
-ii.	Accesses (writes to) the Market Analysis data object
-iii.	Accesses (writes to) the Product Analysis data object
-iv.	Realizes the Business Intelligence application service
-b.	BRIMS, which accesses (writes to) the Candidate Business Rule Set data object
-c.	P-CONFIG, which accesses (writes to) the Candidate Product Configuration data object
-d.	SIM-INSURE, which accesses (reads) the entire EDW
-3.	BRIMS, P-CONFIG and SIM-INSURE are aggregated by the Simulation Environment application collaboration, which in turn realizes the Product Simulation application service.
-4.	The Recommend Changes to Product Portfolio process
-a.	 Is triggered by any one of four situations:
-i.	An Unanticipated Business Condition event that first triggers a Request Off-Cycle Product Review business process, to which the Director of Product Management role is assigned; this business process, in turn, triggers the above-mentioned process
-ii.	An Annual Product Review Cycle Begins business event
-iii.	A Strategic Product Development Effort Begins business event
-iv.	A Review Analysis and Recommendation business process, in case this yields an unfavorable assessment of an Initial Recommendation (this results in a loop back to the above-mentioned process)
-b.	Has the R&amp;D Task Force business collaboration assigned.  This collaboration aggregates the following roles:
-i.	Actuary
-ii.	Market Researcher
-iii.	Product Planner
-c.	Uses the Business Intelligence application service
-d.	Accesses (reads) the following business objects:
-i.	Corporate Strategy
-ii.	Legal and Regulatory Landscape
-iii.	Market Conditions
-iv.	Product Performance
-e.	Accesses (writes) the Initial Recommendation business object.
-5.	The Review Analysis and Recommendation process
-a.	Is triggered by the Recommend Changes to Product Portfolio process
-b.	 Has the R&amp;D Review Board business collaboration assigned.  This collaboration aggregates the following roles:
-i.	Chief Actuary
-ii.	Director of Underwriting
-iii.	Director of Customer Service
-iv.	Director of Claims Processing
-c.	Accesses (reads) the Initial Recommendation business object
-d.	If the review is favorable, triggers the Simulate and Refine Recommendation process
-e.	If the review is unfavorable, triggers a repeat of the Recommend Changes to Product Portfolio Process
-6.	The Simulate and Refine Recommendation Process
-a.	Is triggered by a favorable assessment of the Initial Recommendation by the Review Analysis and Recommendation business process
-b.	Aggregates the Operational Analysis and Planning business function
-c.	Has the R&amp;D Task Force business collaboration assigned
-d.	Uses the Product Simulation application service
-e.	Accesses (reads) the Initial Recommendation business object
-f.	Accesses (writes) the Final Recommendation business object
-g.	Triggers the Go-No-Go Decision process
+&#xD;
+	1.	The Enterprise Data Warehouse (EDW) aggregates the following data objects:
+		a.	Market Statistics
+		b.	Market Analysis, which realizes the Market Conditions business object.
+		c.	Product Analysis, which realizes the Product Performance business object.
+		d.	Candidate Business Rule Set
+		e.	Candidate Product Configuration&#xD;
+
+	2.	The following application components access the EDW:
+		a.	Business Analytics Suite, which 
+			i.	Accesses (reads) the entire EDW
+			ii.	Accesses (writes to) the Market Analysis data object
+			iii.	Accesses (writes to) the Product Analysis data object
+			iv.	Realizes the Business Intelligence application service
+		b.	BRIMS, which accesses (writes to) the Candidate Business Rule Set data object
+		c.	P-CONFIG, which accesses (writes to) the Candidate Product Configuration data object
+		d.	SIM-INSURE, which accesses (reads) the entire EDW&#xD;
+
+	3.	BRIMS, P-CONFIG and SIM-INSURE are aggregated by the Simulation Environment application collaboration, which in turn realizes the Product Simulation application service.&#xD;
+
+	4.	The Recommend Changes to Product Portfolio process
+		a.	 Is triggered by any one of four situations:
+			i.	An Unanticipated Business Condition event that first triggers a Request Off-Cycle Product Review business process, to which the Director of Product Management role is 				assigned; this business process, in turn, triggers the above-mentioned process
+			ii.	An Annual Product Review Cycle Begins business event
+			iii.	A Strategic Product Development Effort Begins business event
+			iv.	A Review Analysis and Recommendation business process, in case this yields an unfavorable assessment of an Initial Recommendation (this results in a loop back to the 					above-mentioned process)
+		b.	Has the R&amp;D Task Force business collaboration assigned.  This collaboration aggregates the following roles:
+			i.	Actuary
+			ii.	Market Researcher
+			iii.	Product Planner
+		c.	Uses the Business Intelligence application service
+		d.	Accesses (reads) the following business objects:
+			i.	Corporate Strategy
+			ii.	Legal and Regulatory Landscape
+			iii.	Market Conditions
+			iv.	Product Performance
+		e.	Accesses (writes) the Initial Recommendation business object.&#xD;
+
+	5.	The Review Analysis and Recommendation process
+		a.	Is triggered by the Recommend Changes to Product Portfolio process
+		b.	 Has the R&amp;D Review Board business collaboration assigned.  This collaboration aggregates the following roles:
+			i.	Chief Actuary
+			ii.	Director of Underwriting
+			iii.	Director of Customer Service
+			iv.	Director of Claims Processing
+		c.	Accesses (reads) the Initial Recommendation business object
+		d.	If the review is favorable, triggers the Simulate and Refine Recommendation process
+		e.	If the review is unfavorable, triggers a repeat of the Recommend Changes to Product Portfolio Process&#xD;
+
+	6.	The Simulate and Refine Recommendation Process
+		a.	Is triggered by a favorable assessment of the Initial Recommendation by the Review Analysis and Recommendation business process
+		b.	Aggregates the Operational Analysis and Planning business function
+		c.	Has the R&amp;D Task Force business collaboration assigned
+		d.	Uses the Product Simulation application service
+		e.	Accesses (reads) the Initial Recommendation business object
+		f.	Accesses (writes) the Final Recommendation business object
+		g.	Triggers the Go-No-Go Decision process&#xD;
+
 7.	The Go-No-Go Decision process
-a.	Is triggered by the Simulate and Refine Recommendation Process
-b.	Has the Executive Committee business collaboration assigned.  This collaboration aggregates the following roles:
-i.	Chief Executive Officer
-ii.	Chief Financial Officer
-iii.	Chief Operating Officer
-iv.	Chief Marketing Officer
-c.	Accesses (reads) the Final Recommendation business object
-d.	If a Go decision occurs, triggers the Plan Product Introduction process
-e.	If a No-Go decision occurs, triggers a repeat of the Recommend Changes to Product Portfolio Process</documentation>
+		a.	Is triggered by the Simulate and Refine Recommendation Process
+		b.	Has the Executive Committee business collaboration assigned.  This collaboration aggregates the following roles:
+			i.	Chief Executive Officer
+			ii.	Chief Financial Officer
+			iii.	Chief Operating Officer
+			iv.	Chief Marketing Officer
+		c.	Accesses (reads) the Final Recommendation business object
+		d.	If a Go decision occurs, triggers the Plan Product Introduction process
+		e.	If a No-Go decision occurs, triggers a repeat of the Recommend Changes to Product Portfolio Process</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="4a-Technology-Landscape" id="id-c5d4420c-b562-41ba-9051-516c7b06992f">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 04.a Technology Landscape" id="id-c5d4420c-b562-41ba-9051-516c7b06992f">
       <child xsi:type="archimate:DiagramObject" id="id-584d2935-cb52-4844-be04-c2ea093294ce" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#edcfe2" archimateElement="id-2dad7714-f0df-4e57-b8e8-a84401a62cd8">
         <bounds x="983" y="384" width="493" height="529"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-495ab502209144dbb2bcd76578f3dc6b" source="id-584d2935-cb52-4844-be04-c2ea093294ce" target="id-d259705c-3d52-4a49-b87b-a8268bde8f6f" archimateRelationship="id-ab4357d8-c125-464b-a894-16fc7cbae74f"/>
@@ -2261,50 +2319,60 @@ e.	If a No-Go decision occurs, triggers a repeat of the Recommend Changes to Pro
         </sourceConnection>
       </child>
       <child xsi:type="archimate:Note" id="id-1e8c9be9-d722-4662-ab9f-b16919c03894" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
-        <bounds x="12" y="12" width="185" height="80"/>
+        <bounds x="12" y="12" width="505" height="37"/>
         <content>Solution for modeling exercise 4a: Technology Landscape</content>
       </child>
       <documentation>Exercise 4: Infrastructure Structure, Behavior and Usage
+&#xD;
 Overview
+&#xD;
 ArchiSurance is modernizing its infrastructure to host its new integrated back-office application suite.  It is building a fully redundant virtualized hosting and storage infrastructure within the primary data centers at the headquarters of its PRO-FIT and Home &amp; Away divisions, which are located in different metropolitan areas.  ArchiSurance is also upgrading the locally-focused infrastructure at Legally Yours headquarters so that the site receives all the benefits of the new enterprise infrastructure.  The new enterprise infrastructure provides message queuing and automated failover from one data center to another, and uses two telecommunications providers to provide redundant wide-area networks and Internet access.  This redundancy is especially important since ArchiSurance is also migrating to full IP telephony; all of its voice, rich media and data traffic will share the same physical networks.   
+&#xD;
 Exercise 4a: Technology Landscape
+&#xD;
 This exercise requires the creation of an ArchiMate Technology view (see the ArchiMate 3.0 Specification, section C.1.7) that depicts the most important hosts, networks and systems software at all three ArchiSurance divisional headquarters.  The view also includes key communication paths between the two primary data centers, as well as aspects of the external networks upon which ArchiSurance relies.  Since most technology components are replicated at two or three sites, this exercise uses the following conventions for unique naming:
-1.	Components at PRO-FIT headquarters have a suffix of “A”, e.g. “Firewall Cluster A”.
-2.	Components at Home &amp; Away headquarters have a suffix of “B”, e.g. “Firewall Cluster B”.
-3.	Components at Legally Yours headquarters have a suffix of “C”, e.g. “Firewall Cluster C”.
+	1.	Components at PRO-FIT headquarters have a suffix of “A”, e.g. “Firewall Cluster A”.
+	2.	Components at Home &amp; Away headquarters have a suffix of “B”, e.g. “Firewall Cluster B”.
+	3.	Components at Legally Yours headquarters have a suffix of “C”, e.g. “Firewall Cluster C”.
+&#xD;
 Also, since virtualized environments typically have many virtual machines devoted to similar purposes, each virtual machine device name represents a series of numbered devices, e.g. VM-01XX for application server hosts, or VM-02XX for integration server hosts.
-1.	ArchiSurance relies on the following external networks and relationships between networks:
-a.	The GlobalNet virtual private network (VPN)
-b.	The WideNet VPN
-c.	The GlobalNet VPN and the WideNet VPN are connected to each other  
-d.	Both the GlobalNet VPN  and the WideNet VPN have separate connections to the Public Switched Telephone Network (PSTN)
-e.	Both the GlobalNet VPN  and the WideNet VPN have separate connections to the Internet
-2.	The PRO-FIT, Home &amp; Away and Legally Yours headquarters sites each have the following common infrastructure:
-a.	A Firewall Cluster with connections to both the GlobalNet VPN and the WideNet VPN.
-b.	An internal local area network (LAN) connected to the Firewall Cluster.
-c.	A Media Server connected to the Internal LAN. 
-3.	Both the PRO-FIT and Home &amp; Away primary data center sites each have the following  infrastructure:
-a.	An externally-facing (DMZ for Demilitarized Zone) LAN connected to the Firewall Cluster
-b.	A Web Virtual Infrastructure node 
-i.	Connected to the DMZ LAN
-ii.	Composed of a VM-07XX device with Internet Web Server system software assigned
-c.	An Internal Virtual Infrastructure node
-i.	Connected to the Internal LAN
-ii.	With Hypervisor system software assigned
-4.	Internal Virtual Infrastructure A, which is located at PRO-FIT Headquarters, is composed of the following devices:
-a.	VM-01XX, with Application Server system software environments assigned
-b.	VM-02XX, with Integration Server system software environments assigned
-c.	VM-03XX, with Database Management System (DBMS) system software environments assigned
-5.	Internal Virtual Infrastructure B, which is located at Home &amp; Away Headquarters, is composed of the following devices:
-a.	VM-04XX, with Distributed Operating System (DOS) system software environments assigned
-b.	VM-05XX, with Distributed File System (DFS) system software environments assigned
-c.	VM-06XX, with Intranet Web Server  system software environments assigned
-6.	The two primary data centers support the following cross-site communication paths
-a.	Message Queuing, which connects devices VM-01XX, VM-02XX, VM-03XX,  VM-04XX and VM-05XX.
-b.	Automated Failover, which connects Internal Virtual Infrastructure A and Internal Virtual Infrastructure B
-c.	Load Balancing, which connects Web Virtual Infrastructure A and Web Virtual Infrastructure B</documentation>
+	1.	ArchiSurance relies on the following external networks and relationships between networks:
+		a.	The GlobalNet virtual private network (VPN)
+		b.	The WideNet VPN
+		c.	The GlobalNet VPN and the WideNet VPN are connected to each other  
+		d.	Both the GlobalNet VPN  and the WideNet VPN have separate connections to the Public Switched Telephone Network (PSTN)
+		e.	Both the GlobalNet VPN  and the WideNet VPN have separate connections to the Internet
+	&#xD;
+	2.	The PRO-FIT, Home &amp; Away and Legally Yours headquarters sites each have the following common infrastructure:
+		a.	A Firewall Cluster with connections to both the GlobalNet VPN and the WideNet VPN.
+		b.	An internal local area network (LAN) connected to the Firewall Cluster.
+		c.	A Media Server connected to the Internal LAN. 
+&#xD;
+	3.	Both the PRO-FIT and Home &amp; Away primary data center sites each have the following  infrastructure:
+		a.	An externally-facing (DMZ for Demilitarized Zone) LAN connected to the Firewall Cluster
+		b.	A Web Virtual Infrastructure node 
+			i.	Connected to the DMZ LAN
+			ii.	Composed of a VM-07XX device with Internet Web Server system software assigned
+		c.	An Internal Virtual Infrastructure node
+			i.	Connected to the Internal LAN
+			ii.	With Hypervisor system software assigned&#xD;
+
+	4.	Internal Virtual Infrastructure A, which is located at PRO-FIT Headquarters, is composed of the following devices:
+		a.	VM-01XX, with Application Server system software environments assigned
+		b.	VM-02XX, with Integration Server system software environments assigned
+		c.	VM-03XX, with Database Management System (DBMS) system software environments assigned
+&#xD;
+	5.	Internal Virtual Infrastructure B, which is located at Home &amp; Away Headquarters, is composed of the following devices:
+		a.	VM-04XX, with Distributed Operating System (DOS) system software environments assigned
+		b.	VM-05XX, with Distributed File System (DFS) system software environments assigned
+		c.	VM-06XX, with Intranet Web Server  system software environments assigned
+&#xD;
+	6.	The two primary data centers support the following cross-site communication paths
+		a.	Message Queuing, which connects devices VM-01XX, VM-02XX, VM-03XX,  VM-04XX and VM-05XX.
+		b.	Automated Failover, which connects Internal Virtual Infrastructure A and Internal Virtual Infrastructure B
+		c.	Load Balancing, which connects Web Virtual Infrastructure A and Web Virtual Infrastructure B</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="2b-Layered" id="id-d440fa5a-4c07-4a88-94c2-cc923c9f2c16">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 02.b Layered" id="id-d440fa5a-4c07-4a88-94c2-cc923c9f2c16">
       <child xsi:type="archimate:DiagramObject" id="id-8907a3a0-f9f9-4393-a097-344afd076393" targetConnections="id-32c6246f-6269-42ff-9879-10346e718b16 id-7347b76518ed4bd29bebf92d7bb345a4" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#ffffb5" archimateElement="id-4a9fa2fa-8085-4582-a9b0-561302194edc">
         <bounds x="744" y="255" width="134" height="73"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-c07abb95-aee0-4d65-ab75-b7eb6a85be2a" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-8907a3a0-f9f9-4393-a097-344afd076393" target="id-01f9d8f1-dbf2-4eb9-9f04-eeaa635ec496" archimateRelationship="id-d21aa213-5fec-45e3-9afd-25ef76bd28f1"/>
@@ -2475,26 +2543,34 @@ c.	Load Balancing, which connects Web Virtual Infrastructure A and Web Virtual I
         </sourceConnection>
       </child>
       <documentation>Exercise 2b: Layering
+&#xD;
 Create a Layered view that shows an overview of the new business structure and its relation to the main applications and infrastructure. Do not use nesting, but explicitly draw all the relationships.
+&#xD;
 This view should contain the following elements:
-1.	The company ArchiSurance and the three main departments of which it is composed.
-2.	The three channels (business interfaces), which a Customer can use to contact the Front Office:
-a.	Telephone
-b.	E-mail
-c.	Web portal
-3.	The three main locations of ArchiSurance, with the two data centers as sub-locations.
-4.	The main business functions (that also appear in the Business Function view per part 2a of this exercise), and the assignments of the departments to these functions.
-5.	The main applications and back office application suite  components serving the business functions:
-a.	VERSA-CLAIM, serving the Claims function.
-b.	AUTO-U, serving the Actuarial and Underwriting functions.
-c.	P-ADMIN, serving the Underwriting and Finance functions.
-d.	Document Management System, serving the Document Processing function.
-e.	Call Center Application, serving the Customer Relations function (on behalf of various other departments that need to interact with customers via both inbound and outbound multi-channel contacts) .
-6.	The servers that realize the application components:
-a.	The ArchiSurance general-purpose and back-up server clusters realize the components of the back office application suite.
-b.	The Document management server and Document Management back-up server realize the Document Management System.
-c.	The Front office general-purpose server realizes the General CRM System and Call Center Application.
-7.	The assignments of locations to the departments and the servers.</documentation>
+	1.	The company ArchiSurance and the three main departments of which it is composed.&#xD;
+
+	2.	The three channels (business interfaces), which a Customer can use to contact the Front Office:
+		a.	Telephone
+		b.	E-mail
+		c.	Web portal
+&#xD;
+	3.	The three main locations of ArchiSurance, with the two data centers as sub-locations.
+&#xD;
+	4.	The main business functions (that also appear in the Business Function view per part 2a of this exercise), and the assignments of the departments to these functions.
+&#xD;
+	5.	The main applications and back office application suite  components serving the business functions:
+		a.	VERSA-CLAIM, serving the Claims function.
+		b.	AUTO-U, serving the Actuarial and Underwriting functions.
+		c.	P-ADMIN, serving the Underwriting and Finance functions.
+		d.	Document Management System, serving the Document Processing function.
+		e.	Call Center Application, serving the Customer Relations function (on behalf of various other departments that need to interact with customers via both inbound and outbound 			multi-channel contacts) .
+&#xD;
+	6.	The servers that realize the application components:
+		a.	The ArchiSurance general-purpose and back-up server clusters realize the components of the back office application suite.
+		b.	The Document management server and Document Management back-up server realize the Document Management System.
+		c.	The Front office general-purpose server realizes the General CRM System and Call Center Application.
+&#xD;
+	7.	The assignments of locations to the departments and the servers.</documentation>
     </element>
   </folder>
 </archimate:model>
