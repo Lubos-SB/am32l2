@@ -1666,8 +1666,8 @@ ArchiSurance has decomposed the assessment  “Frequent customer complaints” i
     <element xsi:type="archimate:ArchimateDiagramModel" name="Exercise 01.a Goal Realization" id="id-aefe007c-18d8-450e-ae62-60a779d47669" viewpoint="goal_realization">
       <child xsi:type="archimate:DiagramObject" id="id-72825773-7faa-4cbe-95e7-fe94e79fc5ce" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#ccccff" archimateElement="id-a154ca8a-4d6d-473c-ab69-ad8968134773">
         <bounds x="72" y="288" width="181" height="67"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-a15049c3-92eb-4832-ad4a-513540684117" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-72825773-7faa-4cbe-95e7-fe94e79fc5ce" target="id-8f023701-c6c3-41a7-b90b-629775af2d43" archimateRelationship="id-088398e7-7421-4421-8cbc-3e6bd7e711f3"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-b3d6f93f-3b73-4543-98dd-27649c92c405" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-72825773-7faa-4cbe-95e7-fe94e79fc5ce" target="id-ee366ea5-d58f-464e-ad41-085dc5f8fbee" archimateRelationship="id-bdf15459-9b85-4162-94ef-7cb6189f84cb"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-a15049c3-92eb-4832-ad4a-513540684117" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#ff0000" lineColor="#000000" source="id-72825773-7faa-4cbe-95e7-fe94e79fc5ce" target="id-8f023701-c6c3-41a7-b90b-629775af2d43" archimateRelationship="id-088398e7-7421-4421-8cbc-3e6bd7e711f3"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-b3d6f93f-3b73-4543-98dd-27649c92c405" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#ff0000" lineColor="#000000" source="id-72825773-7faa-4cbe-95e7-fe94e79fc5ce" target="id-ee366ea5-d58f-464e-ad41-085dc5f8fbee" archimateRelationship="id-bdf15459-9b85-4162-94ef-7cb6189f84cb"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-df1f4682-6c6f-4021-a829-043e71980fb0" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-72825773-7faa-4cbe-95e7-fe94e79fc5ce" target="id-b789fb9a-f385-40a9-bb06-4cd472f1acfd" archimateRelationship="id-d63a386a-f49e-472e-a7be-323ff2c6ad2e">
           <bendpoint startX="66" startY="-57" endX="-211" endY="41"/>
         </sourceConnection>
@@ -1687,8 +1687,8 @@ ArchiSurance has decomposed the assessment  “Frequent customer complaints” i
         <sourceConnection xsi:type="archimate:Connection" id="id-30e7ca16-9031-4e0a-bac3-66f635cadf63" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-99f2c199-edec-4221-97d6-0b9afeaf1f3e" target="id-e7689d92-39e0-4fe8-8779-ab918b6abc9a" archimateRelationship="id-0e956526-a1fc-4dce-9bb9-2d82a421e88e">
           <bendpoint startX="-27" startY="134" endX="-21" endY="-116"/>
         </sourceConnection>
-        <sourceConnection xsi:type="archimate:Connection" id="id-40daeaf9-d358-4a9e-a158-c18bd86188a8" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-99f2c199-edec-4221-97d6-0b9afeaf1f3e" target="id-8f023701-c6c3-41a7-b90b-629775af2d43" archimateRelationship="id-aad4978b-3eed-47f9-aabb-9d8099331826"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-801f1fdf-a474-43e5-91ef-d6a03abb0daa" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-99f2c199-edec-4221-97d6-0b9afeaf1f3e" target="id-ee366ea5-d58f-464e-ad41-085dc5f8fbee" archimateRelationship="id-0ca7d619-2630-46e8-828c-f11b70ef8e17"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-40daeaf9-d358-4a9e-a158-c18bd86188a8" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#008000" lineColor="#000000" source="id-99f2c199-edec-4221-97d6-0b9afeaf1f3e" target="id-8f023701-c6c3-41a7-b90b-629775af2d43" archimateRelationship="id-aad4978b-3eed-47f9-aabb-9d8099331826"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-801f1fdf-a474-43e5-91ef-d6a03abb0daa" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#008000" lineColor="#000000" source="id-99f2c199-edec-4221-97d6-0b9afeaf1f3e" target="id-ee366ea5-d58f-464e-ad41-085dc5f8fbee" archimateRelationship="id-0ca7d619-2630-46e8-828c-f11b70ef8e17"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-bda2f88a-981e-4c37-9210-e0babbe8b638" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-99f2c199-edec-4221-97d6-0b9afeaf1f3e" target="id-b789fb9a-f385-40a9-bb06-4cd472f1acfd" archimateRelationship="id-52b13da9-7780-4806-9ea8-dcfc49871fd9">
           <bendpoint startX="-30" startY="-57" endX="245" endY="41"/>
         </sourceConnection>
@@ -2067,7 +2067,7 @@ This exercise requires the creation of an ArchiMate Application Usage viewpoint 
             <bounds x="24" y="36" width="157" height="85"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-ada7b860a10b4fd8b90cd1161749938e" source="id-ee2d5b5f-b951-435b-b118-a586eeb052b1" target="id-9d35a455-2ffa-4d65-8daa-260abdc4ac73" archimateRelationship="id-2cbab627-e623-4fb6-bc9d-1057e6764582"/>
             <child xsi:type="archimate:DiagramObject" id="id-9d35a455-2ffa-4d65-8daa-260abdc4ac73" targetConnections="id-ada7b860a10b4fd8b90cd1161749938e" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#c9e7b7" archimateElement="id-1ab16915-3179-41d6-887c-4d5a4e855369">
-              <bounds x="24" y="24" width="132" height="49"/>
+              <bounds x="12" y="24" width="132" height="49"/>
             </child>
           </child>
         </child>
@@ -2521,7 +2521,7 @@ This view should contain the following elements:
 		b.	AUTO-U, serving the Actuarial and Underwriting functions.
 		c.	P-ADMIN, serving the Underwriting and Finance functions.
 		d.	Document Management System, serving the Document Processing function.
-		e.	Call Center Application, serving the Customer Relations function (on behalf of various other departments that need to interact with customers via both inbound and outbound 			multi-channel contacts) .
+		e.	Call Center Application, serving the Customer Relations function (on behalf of various other departments that need to interact with customers via both inbound and outbound 			multi-	channel contacts).
 &#xD;
 	6.	The servers that realize the application components:
 		a.	The ArchiSurance general-purpose and back-up server clusters realize the components of the back office application suite.
