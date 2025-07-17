@@ -666,8 +666,8 @@
         </child>
       </child>
       <child xsi:type="archimate:Note" id="id-87d5a34b-8c15-4eae-97eb-d2d2a6554543" font="1|Segoe UI|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
-        <bounds width="553" height="49"/>
-        <content>Solution for modeling exercise 2a: Business Function View</content>
+        <bounds x="12" width="553" height="49"/>
+        <content>Solution for modeling exercise 02.a: Business Function View</content>
       </child>
       <documentation>Exercise 2: Business Reorganization
 &#xD;
@@ -756,8 +756,8 @@ Also show the main information flows, and label them with the type of informatio
         <bounds x="748" y="192" width="133" height="55"/>
       </child>
       <child xsi:type="archimate:Note" id="id-9bc3cf64-72d6-4cd6-8674-8a250c68cd73" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
-        <bounds x="12" y="12" width="509" height="49"/>
-        <content>Solution for modeling exercise 5b: Capability Realization</content>
+        <bounds x="12" y="12" width="579" height="49"/>
+        <content>Solution for modeling exercise 05.b: Capability Realization</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-9f7bbd89-978d-48f0-a010-6ac5339736ed" targetConnections="id-a36092b2-7346-4c01-8b99-94c218ef99f3 id-3bbb2d7f-86ce-4307-b64c-4538592c59d6 id-aff4fc73-eac5-40b6-988c-52b37c4c05eb" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#000000" archimateElement="id-b5632616-2a3b-4a73-a270-c36a20fe26c5">
         <bounds x="477" y="284" width="15" height="15"/>
@@ -918,7 +918,7 @@ When more than one function realizes a capability, use an And junction (solid ba
       </child>
       <child xsi:type="archimate:Note" id="id-a9b03e03-a630-4a77-8822-f1d1092d9715" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
         <bounds x="12" y="12" width="481" height="37"/>
-        <content>Solution for modeling exercise 5a: Capability Map</content>
+        <content>Solution for modeling exercise 05.a: Capability Map</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-949470bf-9da6-4e15-88b7-46ba4939acc5" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#f5deaa" archimateElement="id-d27381b0-31b4-4f95-a0a1-a937fc50e9a0">
         <bounds x="420" y="588" width="301" height="92"/>
@@ -1157,7 +1157,7 @@ Develop a Capability Map view for ArchiSurance, which structures its business ca
       </child>
       <child xsi:type="archimate:Note" id="id-376edc3b-b1c1-4232-a066-7af765602d6a" font="1|Segoe UI|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
         <bounds x="12" y="12" width="589" height="37"/>
-        <content>Solution for modeling exercise 3a: Back-Office Application Cooperation</content>
+        <content>Solution for modeling exercise 03.a: Back-Office Application Cooperation</content>
       </child>
       <documentation>Exercise 3: Back-Office Application Cooperation and Usage   
 &#xD;
@@ -1301,8 +1301,8 @@ This exercise requires the creation of an ArchiMate Application Cooperation view
         <bounds x="721" y="348" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:Note" id="id-b1efc3bf-c62a-4708-a886-aab0f4de9cbf" font="1|Segoe UI|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
-        <bounds width="601" height="37"/>
-        <content>Solution for modeling exercise 1b: Application Cooperation View</content>
+        <bounds x="12" y="12" width="601" height="37"/>
+        <content>Solution for modeling exercise 01.b: Application Cooperation View</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-a4e6cfad-1de3-4fb0-bc7f-7b4cd4b7943f" targetConnections="id-cb901dcf-ebcd-4db0-8ac2-03c0aac023ec" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#000000" archimateElement="id-b4f67573-462f-4c42-994a-81495bb6d517">
         <bounds x="720" y="164" width="15" height="15"/>
@@ -1456,9 +1456,8 @@ Show the information described above in an ArchiMate Application Cooperation vie
         <sourceConnection xsi:type="archimate:Connection" id="id-80e18503-ea84-4935-bd0b-3f094728c245" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-8dc92100-aab5-4788-aaab-ca052f7741f4" target="id-704db050-472a-4ce1-9c31-d918c3afc3b8" archimateRelationship="id-242828ad-7377-45af-b88e-f2cc17ec1b92"/>
       </child>
       <child xsi:type="archimate:Note" id="id-f960a52c-0a36-4b53-903c-54f2d53c48dc" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
-        <bounds x="9" y="12" width="484" height="37"/>
-        <content>Solution for modeling exercise 4b:
-Technology Usage</content>
+        <bounds x="9" y="12" width="520" height="37"/>
+        <content>Solution for modeling exercise 04.b: Technology Usage</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-30af42d8-06cf-4ac2-b125-b9e7705d60cf" font="1|Segoe UI|9.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" fillColor="#c9e7b7" archimateElement="id-fbac697c-9c54-4d3f-88b9-bb8818a34e21">
         <bounds x="420" y="828" width="757" height="49"/>
@@ -1584,7 +1583,7 @@ This exercise requires an ArchiMate Technology Usage view (see the ArchiMate 3.0
       </child>
       <child xsi:type="archimate:Note" id="id-d87d292b-516a-47e0-a74d-f6028a409c92" font="1|Segoe UI|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
         <bounds x="12" width="517" height="37"/>
-        <content>Solution for modeling exercise 1c: Requirements Realization View</content>
+        <content>Solution for modeling exercise 01.c: Requirements Realization View</content>
       </child>
       <documentation>Exercise 1c: Requirements Realization&#xD;
 
@@ -1656,6 +1655,10 @@ Show the information described above in a Requirements Realization view, as desc
         <bounds x="489" y="576" width="97" height="39"/>
         <content>Threat</content>
       </child>
+      <child xsi:type="archimate:Note" id="id-4335124cbb2b4b9689be97c52db00c40" font="1|Segoe UI|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
+        <bounds x="12" y="24" width="505" height="37"/>
+        <content>Solution for Modeling Exercise 01.0 SWOT Analysis</content>
+      </child>
       <documentation>Exercise 1: Online Insurance Portfolio and Claims Management
 &#xD;
 Overview
@@ -1707,7 +1710,7 @@ ArchiSurance has decomposed the assessment  “Frequent customer complaints” i
       </child>
       <child xsi:type="archimate:Note" id="id-0e88a8d7-9565-4434-96b9-bd581abe44d2" font="1|Segoe UI|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
         <bounds x="12" y="12" width="505" height="37"/>
-        <content>Solution for Modeling Exercise 1a: Goal Contribution View</content>
+        <content>Solution for Modeling Exercise 01.a: Goal Realization View</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-b789fb9a-f385-40a9-bb06-4cd472f1acfd" targetConnections="id-df1f4682-6c6f-4021-a829-043e71980fb0 id-bda2f88a-981e-4c37-9210-e0babbe8b638" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#000000" archimateElement="id-45feb04a-aef1-4506-9ad0-5bbd3a9c4168">
         <bounds x="432" y="216" width="15" height="15"/>
@@ -1977,7 +1980,7 @@ This view should contain:
       </child>
       <child xsi:type="archimate:Note" id="id-0c3121a3-fbca-415c-9d82-3ff383e662ec" font="1|Segoe UI|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
         <bounds x="12" y="36" width="257" height="80"/>
-        <content>Solution for modeling exercise 3b: Application Usage for Product Development</content>
+        <content>Solution for modeling exercise 03.b: Application Usage for Product Development</content>
       </child>
       <documentation>Exercise 3b:  Application Usage for Product Development&#xD;
 
@@ -2278,7 +2281,7 @@ This exercise requires the creation of an ArchiMate Application Usage viewpoint 
       </child>
       <child xsi:type="archimate:Note" id="id-1e8c9be9-d722-4662-ab9f-b16919c03894" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
         <bounds x="12" y="12" width="553" height="37"/>
-        <content>Solution for modeling exercise 4a: Technology Landscape</content>
+        <content>Solution for modeling exercise 04.a: Technology Landscape</content>
       </child>
       <documentation>Exercise 4: Infrastructure Structure, Behavior and Usage
 &#xD;
@@ -2488,7 +2491,7 @@ Also, since virtualized environments typically have many virtual machines devote
       </child>
       <child xsi:type="archimate:Note" id="id-17351d3a-81d6-4b33-912d-507500fc54bf" font="1|Segoe UI|12.0|1|WINDOWS|1|0|0|0|0|700|0|0|0|1|0|0|0|0|Segoe UI" fontColor="#000000" lineColor="#000000" textAlignment="1" fillColor="#ffffff">
         <bounds x="3" y="5" width="478" height="44"/>
-        <content>Solution for modeling exercise 2b: Layered View</content>
+        <content>Solution for modeling exercise 02.b: Layered View</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-13a0741a-e725-45dd-990b-3241f216d7c7" targetConnections="id-b4d072a4-ad2b-4c31-b37d-320e34d35d61 id-07ab0c17-7059-438d-9451-9d20c57b8726" font="1|Arial|15.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#000000" archimateElement="id-09345482-15c3-4f54-aa8d-b3035e480673">
         <bounds x="803" y="612" width="15" height="15"/>
